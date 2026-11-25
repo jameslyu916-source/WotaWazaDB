@@ -7,20 +7,24 @@
   "creators": [],
   "videos": [
     {
-      "label": "樱祐介 · Bilibili",
+      "label": "Bilibili · オリ技",
       "url": "https://www.bilibili.com/video/BV1Eiz8BmEiC/"
     }
   ],
   "sources": [
     {
-      "label": "樱祐介 · Bilibili",
-      "url": "https://www.bilibili.com/video/BV1Eiz8BmEiC/"
+      "url": "https://space.bilibili.com/1373669045/",
+      "label": "投稿者主页 · UID 1373669045",
+      "labelI18n": {
+        "ja": "投稿者プロフィール · UID 1373669045",
+        "en": "Uploader profile · UID 1373669045"
+      }
     }
   ],
-  "note": "投稿账号为樱祐介，简介称由雫织错派生，作成者署名待核。",
+  "note": "原投稿简介称此技由「雫织错」派生。作成者署名待核。",
   "noteI18n": {
-    "en": "Posted by 樱祐介 as a derivative of 雫织错. Creator credit unconfirmed.",
-    "ja": "樱祐介の投稿。雫织错の派生技とされ、作者名義は未確認。"
+    "en": "The uploader describes this waza as a derivative of 雫织错. Creator credit is unconfirmed.",
+    "ja": "投稿の説明によると「雫织错」の派生技。作者名義は未確認。"
   },
   "updated": "2026-11-25"
 }
