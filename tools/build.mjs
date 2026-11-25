@@ -31,7 +31,7 @@ for(const review of [true,false]){
     mkdirSync(new URL('../docs/',import.meta.url),{recursive:true});
     writeFileSync(new URL('../docs/index.html',import.meta.url),html);
     for(const style of ['folio','studio','index']){
-      const preview=html.replace('<main>', '<body data-style="'+style+'"><main>');
+      const preview=html.replace('<body data-style="studio"><main>', '<body data-style="'+style+'"><main>');
       writeFileSync(new URL('../docs/preview-'+style+'.html',import.meta.url),preview);
     }
   }
