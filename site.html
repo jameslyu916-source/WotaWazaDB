@@ -1,6 +1,11 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WotaWazaDB · 技档案</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#242723;font:16px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:35px 5vw 80px}header{border-top:5px solid #d65325;padding:20px 0}h1{font:700 clamp(32px,6vw,58px)/1.1 Georgia,serif;margin:8px 0}header p{margin:8px 0;color:#5e6259}input{width:100%;font:inherit;padding:12px 16px;border:1px solid #aaa99d;border-radius:6px;background:white}details{border-top:1px solid #c9c8be;background:#fcfbf6;padding:14px 18px}summary{cursor:pointer}strong{font-size:20px;margin-right:1em}small{color:#595d53}a{color:#874019}p{margin:9px 0}li{margin:4px 0}ul{padding-left:22px}#count{font-size:14px;margin:18px 0 8px}code{overflow-wrap:anywhere}</style>
-<main><header><select id="lang" aria-label="Language / 言語 / 语言" style="float:right;padding:6px"><option value="zh">中文</option><option value="ja">日本語</option><option value="en">English</option></select><h1>WotaWazaDB</h1><p id="intro"></p></header><input id="q" type="search"><p id="count" aria-live="polite"></p><section id="list"></section></main>
+<style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#242723;font:16px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:35px 5vw 80px}header{border-top:5px solid #d65325;padding:20px 0}h1{font:700 clamp(32px,6vw,58px)/1.1 Georgia,serif;margin:8px 0}header p{margin:8px 0;color:#5e6259}input{width:100%;font:inherit;padding:12px 16px;border:1px solid #aaa99d;border-radius:6px;background:white}details{border-top:1px solid #c9c8be;background:#fcfbf6;padding:14px 18px}summary{cursor:pointer}strong{font-size:20px;margin-right:1em}small{color:#595d53}a{color:#874019}p{margin:9px 0}li{margin:4px 0}ul{padding-left:22px}#count{font-size:14px;margin:18px 0 8px}code{overflow-wrap:anywhere}
+nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 24px}nav label{display:flex;align-items:center;gap:6px;font-size:14px}nav select{background:transparent;color:inherit;border:1px solid #8888;padding:5px}header>select{float:none}
+body[data-style="folio"]{background:#f5f2e9;color:#282521}body[data-style="folio"] header{border-top:1px solid;padding-top:28px}body[data-style="folio"] h1{font-weight:400;letter-spacing:-.045em}body[data-style="folio"] details{background:transparent;padding:14px 0}body[data-style="folio"] strong{font:600 21px Georgia,serif}
+body[data-style="studio"]{background:#17191c;color:#e9e8e1}body[data-style="studio"] header{border-color:#ff9254}body[data-style="studio"] h1{font-family:system-ui;letter-spacing:-.06em}body[data-style="studio"] details,body[data-style="studio"] input,body[data-style="studio"] select{background:#202328;color:#f1eee6}body[data-style="studio"] small,body[data-style="studio"] header p{color:#bac0c4}body[data-style="studio"] a{color:#ffab79}
+body[data-style="index"]{background:white;color:#152b51}body[data-style="index"] header{border-top:3px solid #243e66}body[data-style="index"] h1{font:600 clamp(34px,7vw,66px)/1.1 system-ui;letter-spacing:-.055em}body[data-style="index"] details{background:white;border-color:#c5cfdf}body[data-style="index"] summary small{font-family:monospace}body[data-style="index"] a{color:#214b89}
+</style>
+<main><nav><a id="submit"></a><label><span aria-hidden="true">◎</span> Language <select id="lang" aria-label="Language / 言語 / 语言" ><option value="zh">中文</option><option value="ja">日本語</option><option value="en">English</option></select></label></nav><header><h1>WotaWazaDB</h1><p id="intro"></p></header><input id="q" type="search"><p id="count" aria-live="polite"></p><section id="list"></section></main>
 <script>const entries=/*DATA*/[];
 const review='@@MODE@@'==='review';
 const ui={
@@ -13,15 +18,33 @@ let prefs=navigator.languages||[navigator.language];
 try{prefs=[localStorage.getItem('archive-lang'),...prefs]}catch{}
 picker.value=prefs.map(v=>v?.split('-')[0]).find(v=>Object.hasOwn(ui,v))||'en';
 const el=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;return n};
-const norm=s=>s.normalize('NFKC').toLowerCase();
+const pairs='@@HAN@@';
+const han=new Map();
+for(let i=0;i<pairs.length;i+=2) han.set(pairs[i],pairs[i+1]);
+const norm=s=>Array.from(s.normalize('NFKC').toLowerCase(),c=>han.get(c)||c).join('');
+const theme=new URLSearchParams(location.search).get('style');
+if(['folio','studio','index'].includes(theme))document.body.dataset.style=theme;
+const actions={
+ zh:['提交新技','纠错或补充','暂无待审更新','技名、作成者及依据','参考视频、时间点或其他来源','建议修改及依据'],
+ ja:['新しい技を投稿','訂正・情報提供','確認待ちの更新はありません','技名・作者とその根拠','参考動画・開始位置・その他の出典','訂正内容と根拠'],
+ en:['Submit a waza','Suggest a correction','No pending changes','Waza name, creator and supporting evidence','Reference video, timestamp or other source','Suggested change and supporting evidence']
+};
+function issueUrl(labels,entry){
+ const url=new URL('https://github.com/jameslyu916-source/WotaWazaDB/issues/new');
+ url.searchParams.set('title',(entry?labels[1]+' · '+entry.name:labels[0]+' · '));
+ url.searchParams.set('body',[entry?entry.id+' · '+entry.name:'',entry?labels[5]:labels[3],labels[4]].filter(Boolean).join('\n\n'));
+ return url.href;
+}
 function render(){
  const lang=picker.value,u=ui[lang],intro=u[0]+(review?' · '+u[1]:'');
+ const labels=actions[lang],submit=document.querySelector('#submit');
+ submit.textContent=labels[0];submit.href=issueUrl(labels);
  document.documentElement.lang=lang==='zh'?'zh-CN':lang;document.title='WotaWazaDB · '+intro;
  document.querySelector('#intro').textContent=intro;q.placeholder=u[2];q.setAttribute('aria-label',u[2]);
  const box=document.querySelector('#list'),opened=new Set([...box.querySelectorAll('details[open]')].map(d=>d.id));box.replaceChildren();
  const term=norm(q.value.trim());
  const rows=entries.filter(e=>[e.name,e.reading,...e.aliases,...e.creators].filter(Boolean).some(v=>norm(v).includes(term)));
- document.querySelector('#count').textContent=rows.length?rows.length+' '+(lang==='en'&&rows.length===1?'entry':u[3]):entries.length?u[4]:u[5];
+ document.querySelector('#count').textContent=rows.length?rows.length+' '+(lang==='en'&&rows.length===1?'entry':u[3]):entries.length?u[4]:review?labels[2]:u[5];
  for(const e of rows){
  const d=el('details','');d.id=e.id;d.open=opened.has(e.id)||location.hash==='#'+e.id;
  const s=el('summary','');s.append(el('strong',e.name),el('small',e.creators.join(lang==='en'?', ':'、')||u[6]));d.append(s);
@@ -34,7 +57,7 @@ function render(){
  }
  d.append(links);
  if(e.creation)d.append(el('p',u[8]+' '+e.creation.date+' · '+(e.creation.evidenceI18n?.[lang]||e.creation.evidence)));
- d.append(el('p',e.noteI18n?.[lang]||e.note),el('small',e.id+' · '+u[e.status==='pending'?9:10]+' · '+u[11]+' '+e.updated));box.append(d);
+ d.append(el('p',e.noteI18n?.[lang]||e.note),el('small',e.id+' · '+u[e.status==='pending'?9:10]+' · '+u[11]+' '+e.updated));const edit=el('a',labels[1]);edit.href=issueUrl(labels,e);const footer=el('p','');footer.append(edit);d.append(footer);box.append(d);
  }}
 picker.addEventListener('change',()=>{try{localStorage.setItem('archive-lang',picker.value)}catch{}render()});
 q.addEventListener('input',render);render();</script></html>
