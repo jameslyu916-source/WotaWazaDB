@@ -4,7 +4,7 @@
 
 **日本語**　ヲタ芸の技を、技名・別名・読み・作者から探せるアーカイブです。各項目に参考動画と作者表記の出典を掲載しています。右上で表示言語を切り替えられます。
 
-**English**　A Wotagei move archive for performers worldwide. Search by move name, alias, reading or creator, then open an entry for demonstrations and attribution sources. Use the language selector at the top right. Move names and performer credits retain their original spelling.
+**English**　A Wotagei waza archive for performers worldwide. Search by waza name, alias, reading or creator, then open an entry for demonstrations and attribution sources. Use the language selector at the top right. Waza names and performer credits retain their original spelling.
 
 WOTA 艺技档案。打开 `review.html` 可按技名、读音、别名或作成者搜索待审条目，展开一行即可查看署名来源和视频定位。`index.html` 只展示通过审核的条目，可单独部署。
 

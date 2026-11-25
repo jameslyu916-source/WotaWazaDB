@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
 const dir = new URL('../entries/',import.meta.url);
 const read = f => JSON.parse(readFileSync(new URL(f,dir),'utf8'));
 const files = readdirSync(dir).filter(f=>f.endsWith('.yaml')).sort();
@@ -27,5 +27,9 @@ for(const review of [true,false]){
   });
   const html=template.replace('@@MODE@@',review?'review':'public').replace('/*DATA*/[]',()=>JSON.stringify(data).replaceAll('<','\\u003c'));
   writeFileSync(new URL(review?'../review.html':'../index.html',import.meta.url),html);
+  if(!review){
+    mkdirSync(new URL('../docs/',import.meta.url),{recursive:true});
+    writeFileSync(new URL('../docs/index.html',import.meta.url),html);
+  }
 }
 console.log(entries.length+' entries, '+entries.filter(e=>e.status==='approved').length+' approved');
