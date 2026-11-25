@@ -1,0 +1,38 @@
+{
+  "id": "w0001",
+  "status": "approved",
+  "name": "一途",
+  "reading": "いちず",
+  "aliases": [
+    "Ichizu"
+  ],
+  "creators": [
+    "藍弱"
+  ],
+  "sources": [
+    {
+      "label": "ヲタ芸タイムズ · 技辞典署名",
+      "url": "https://wotageitimes.com/wazajiten/ichizu/",
+      "labelI18n": {
+        "ja": "ヲタ芸タイムズ · 技辞典の作者表記",
+        "en": "ヲタ芸タイムズ · dictionary credit"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "参考演示 · YouTube · 16:59",
+      "url": "https://www.youtube.com/watch?v=DfAuMriF8rE&t=1019s",
+      "labelI18n": {
+        "ja": "参考実演 · YouTube · 16:59",
+        "en": "Demonstration · YouTube · 16:59"
+      }
+    }
+  ],
+  "note": "旧库把读音和英文名连进了作成者栏，已按原页分开。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "辞典の表記に合わせ、作者・読み・英語名を分けた。",
+    "en": "The original dictionary lists the creator, reading and English name separately."
+  }
+}

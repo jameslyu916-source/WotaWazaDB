@@ -1,0 +1,36 @@
+{
+  "id": "w0018",
+  "status": "pending",
+  "name": "洛神葵",
+  "reading": "ローゼル",
+  "aliases": [],
+  "creators": [
+    "みね"
+  ],
+  "sources": [
+    {
+      "label": "らて · 征集技单",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks",
+      "labelI18n": {
+        "ja": "らて · 募集技連の技一覧",
+        "en": "らて · compilation credits"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "AI 补找 · YouTube 参考视频",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks",
+      "labelI18n": {
+        "ja": "AI が見つけた参考動画 · YouTube",
+        "en": "Reference video found by AI · YouTube"
+      }
+    }
+  ],
+  "note": "征集技连简介的第 8 位署名。段落待定位。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "募集技連の概要欄にある8番目の作者枠。開始位置は未確認。",
+    "en": "Creator slot 8 in the compilation credits. The timestamp is unconfirmed."
+  }
+}

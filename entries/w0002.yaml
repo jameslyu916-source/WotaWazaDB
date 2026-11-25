@@ -1,0 +1,36 @@
+{
+  "id": "w0002",
+  "status": "approved",
+  "name": "カンザシ",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "時雨"
+  ],
+  "sources": [
+    {
+      "label": "ヲタ芸タイムズ · 技辞典署名",
+      "url": "https://wotageitimes.com/wazajiten/kanzashi/",
+      "labelI18n": {
+        "ja": "ヲタ芸タイムズ · 技辞典の作者表記",
+        "en": "ヲタ芸タイムズ · dictionary credit"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "参考演示 · YouTube · 2:03",
+      "url": "https://www.youtube.com/watch?v=Mz8Vh2twgdA&t=123s",
+      "labelI18n": {
+        "ja": "参考実演 · YouTube · 2:03",
+        "en": "Demonstration · YouTube · 2:03"
+      }
+    }
+  ],
+  "note": "辞典标注从 2:03 看画面右侧。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "辞典によると、2:03から画面右側。",
+    "en": "The dictionary points to the performer on the right at 2:03."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "w0004",
+  "status": "approved",
+  "name": "霞翳",
+  "reading": "かえい",
+  "aliases": [],
+  "creators": [
+    "さい",
+    "ゆーきち"
+  ],
+  "sources": [
+    {
+      "label": "ヲタ芸タイムズ · 技辞典署名",
+      "url": "https://wotageitimes.com/wazajiten/kaei/",
+      "labelI18n": {
+        "ja": "ヲタ芸タイムズ · 技辞典の作者表記",
+        "en": "ヲタ芸タイムズ · dictionary credit"
+      }
+    },
+    {
+      "url": "https://x.com/sailumer/status/1610574284245839874",
+      "label": "X · 历史出处（你复核时无法播放，辞典标注 0:59）",
+      "labelI18n": {
+        "ja": "X · 記録用（確認時に再生不可、辞典では0:59）",
+        "en": "X · archival link (unplayable when checked, dictionary cites 0:59)"
+      }
+    }
+  ],
+  "videos": [],
+  "note": "署名据技辞典；本家投稿待核。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "技辞典の署名による。本家動画は未確認。",
+    "en": "Creator credits follow the dictionary. The original video is unconfirmed."
+  }
+}

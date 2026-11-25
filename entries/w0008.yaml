@@ -1,0 +1,36 @@
+{
+  "id": "w0008",
+  "status": "approved",
+  "name": "GOLD",
+  "reading": "ごーるど",
+  "aliases": [],
+  "creators": [
+    "ギア"
+  ],
+  "sources": [
+    {
+      "label": "ヲタ芸タイムズ · 技辞典署名",
+      "url": "https://wotageitimes.com/wazajiten/gold/",
+      "labelI18n": {
+        "ja": "ヲタ芸タイムズ · 技辞典の作者表記",
+        "en": "ヲタ芸タイムズ · dictionary credit"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "Bilibili · 0:36 · AI 补找，维护者已核对",
+      "url": "https://www.bilibili.com/video/BV1Xh411y7CZ/?t=35.6",
+      "labelI18n": {
+        "ja": "Bilibili · 0:36 · AI が発見、管理者確認済み",
+        "en": "Bilibili · 0:36 · found by AI, checked by maintainer"
+      }
+    }
+  ],
+  "note": "署名据技辞典；本家投稿待核。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "技辞典の署名による。本家動画は未確認。",
+    "en": "Creator credits follow the dictionary. The original video is unconfirmed."
+  }
+}

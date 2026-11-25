@@ -1,0 +1,36 @@
+{
+  "id": "w0013",
+  "status": "pending",
+  "name": "ラビリス",
+  "reading": "らびりす",
+  "aliases": [],
+  "creators": [
+    "らて"
+  ],
+  "sources": [
+    {
+      "label": "らて · 作者自述",
+      "url": "https://note.com/14tte/n/n367007db5724",
+      "labelI18n": {
+        "ja": "らて · 作者による回顧",
+        "en": "らて · creator retrospective"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "AI 补找 · YouTube 参考视频",
+      "url": "https://www.youtube.com/watch?v=0eDhRUMbgUA&t=32s",
+      "labelI18n": {
+        "ja": "AI が見つけた参考動画 · YouTube",
+        "en": "Reference video found by AI · YouTube"
+      }
+    }
+  ],
+  "note": "作者回顾所列参考视频，定位 0:32。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "作者の回顧記事で紹介された参考動画。開始位置 0:32。",
+    "en": "The creator links this demonstration at 0:32 in their retrospective."
+  }
+}

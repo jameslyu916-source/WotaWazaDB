@@ -1,0 +1,1823 @@
+{
+  "wikiRows": 557,
+  "timesRows": 210,
+  "exactTitles": 15,
+  "matchedTimesRows": 72,
+  "missingTimesCredits": 6,
+  "mixedCredits": [
+    "ガチ崩壊",
+    "ミズナルキッス",
+    "一途",
+    "白濤",
+    "身体天賦",
+    "風雅"
+  ],
+  "candidates": [
+    {
+      "title": "495年の波紋",
+      "timesCredit": "木葉",
+      "source": "https://wotageitimes.com/wazajiten/495nennohamon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "Beスネイク・穿",
+      "timesCredit": null,
+      "source": "https://wotageitimes.com/wazajiten/be-snake-sen%e7%a9%bf/",
+      "wikiMatches": []
+    },
+    {
+      "title": "Beスネイク・閃",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/be-snake-sen%e9%96%83/",
+      "wikiMatches": []
+    },
+    {
+      "title": "DeG",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/deg/",
+      "wikiMatches": [
+        {
+          "title": "DeG",
+          "original": "DeG",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "GOLD",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/gold/",
+      "wikiMatches": [
+        {
+          "title": "GOLD",
+          "original": "GOLD",
+          "wikiCredit": "{{Gear}}",
+          "wikiHonke": "{{Gear}}"
+        }
+      ]
+    },
+    {
+      "title": "MmG",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/mmg/",
+      "wikiMatches": [
+        {
+          "title": "MmG",
+          "original": "MmG",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "NnG",
+      "timesCredit": "赤猫",
+      "source": "https://wotageitimes.com/wazajiten/nng/",
+      "wikiMatches": []
+    },
+    {
+      "title": "OAD",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/oad/",
+      "wikiMatches": []
+    },
+    {
+      "title": "RUUNA",
+      "timesCredit": "ゆうちゃま",
+      "source": "https://wotageitimes.com/wazajiten/ruuna/",
+      "wikiMatches": []
+    },
+    {
+      "title": "RUUNA【ROMANCE】",
+      "timesCredit": "ゆうちゃま",
+      "source": "https://wotageitimes.com/wazajiten/ruunaromance/",
+      "wikiMatches": []
+    },
+    {
+      "title": "TKG",
+      "timesCredit": "じゅぴ",
+      "source": "https://wotageitimes.com/wazajiten/tkg/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ff",
+      "timesCredit": "Clifford",
+      "source": "https://wotageitimes.com/wazajiten/fortissimo/",
+      "wikiMatches": []
+    },
+    {
+      "title": "monaビーム",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/mona-beam/",
+      "wikiMatches": [
+        {
+          "title": "Monaビーム〈monabeam〉",
+          "original": "monaビーム",
+          "wikiCredit": "{{U-Na}}",
+          "wikiHonke": "{{U-Na}}"
+        }
+      ]
+    },
+    {
+      "title": "α",
+      "timesCredit": "とらぺ",
+      "source": "https://wotageitimes.com/wazajiten/alpha/",
+      "wikiMatches": [
+        {
+          "title": "〈Alfa⧸あるふぁ〉α",
+          "original": "α",
+          "wikiCredit": "とらぺ",
+          "wikiHonke": "とらぺ"
+        }
+      ]
+    },
+    {
+      "title": "ぐらみるく",
+      "timesCredit": "GURA",
+      "source": "https://wotageitimes.com/wazajiten/guramilk/",
+      "wikiMatches": []
+    },
+    {
+      "title": "どすこいクロー",
+      "timesCredit": "かぶとむし",
+      "source": "https://wotageitimes.com/wazajiten/dosukoiclaw/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ぽくぽくry",
+      "timesCredit": "ぽくぽく",
+      "source": "https://wotageitimes.com/wazajiten/pokupokury/",
+      "wikiMatches": [
+        {
+          "title": "ぽくぽくry〈PokuPoku略〉",
+          "original": "ぽくぽくry",
+          "wikiCredit": "{{Poku}}",
+          "wikiHonke": "{{Poku}}"
+        }
+      ]
+    },
+    {
+      "title": "アマテラス",
+      "timesCredit": "ばっくほーん",
+      "source": "https://wotageitimes.com/wazajiten/amaterasu/",
+      "wikiMatches": [
+        {
+          "title": "アマテラス〈天照〉",
+          "original": "アマテラス",
+          "wikiCredit": "{{BackHorn}}",
+          "wikiHonke": "{{BackHorn}}"
+        }
+      ]
+    },
+    {
+      "title": "アマルティス",
+      "timesCredit": "こじこじ",
+      "source": "https://wotageitimes.com/wazajiten/amarutis/",
+      "wikiMatches": [
+        {
+          "title": "アマルティス〈宝石天照〉",
+          "original": "アマルティス",
+          "wikiCredit": "{{Gojigoji}}",
+          "wikiHonke": "{{Gojigoji}}"
+        }
+      ]
+    },
+    {
+      "title": "アロンアルファ",
+      "timesCredit": "なおじん",
+      "source": "https://wotageitimes.com/wazajiten/aronalpha/",
+      "wikiMatches": []
+    },
+    {
+      "title": "アンドロメダ",
+      "timesCredit": "たこやき",
+      "source": "https://wotageitimes.com/wazajiten/%e3%82%a2%e3%83%b3%e3%83%89%e3%83%ad%e3%83%a1%e3%83%80/",
+      "wikiMatches": [
+        {
+          "title": "アンドロメダ〈仙女座〉",
+          "original": "アンドロメダ",
+          "wikiCredit": null,
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "イェーガー",
+      "timesCredit": null,
+      "source": "https://wotageitimes.com/wazajiten/jaeger/",
+      "wikiMatches": [
+        {
+          "title": "イェーガー〈猎手〉",
+          "original": "イェーガー",
+          "wikiCredit": "{{Shun}}",
+          "wikiHonke": "{{shun}}"
+        }
+      ]
+    },
+    {
+      "title": "イギータ",
+      "timesCredit": "しゅんしゅん",
+      "source": "https://wotageitimes.com/wazajiten/higuita/",
+      "wikiMatches": []
+    },
+    {
+      "title": "イクパスイ",
+      "timesCredit": "よしき",
+      "source": "https://wotageitimes.com/wazajiten/ikupasui/",
+      "wikiMatches": []
+    },
+    {
+      "title": "イザナギ",
+      "timesCredit": "たかし",
+      "source": "https://wotageitimes.com/wazajiten/izanagi/",
+      "wikiMatches": [
+        {
+          "title": "イザナギ〈伊奘诺尊⧸伊邪那岐〉",
+          "original": "イザナギ",
+          "wikiCredit": "たかし",
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "インディゴ",
+      "timesCredit": "きゃにおん",
+      "source": "https://wotageitimes.com/wazajiten/indigo/",
+      "wikiMatches": []
+    },
+    {
+      "title": "インパクト",
+      "timesCredit": "DUFDUF",
+      "source": "https://wotageitimes.com/wazajiten/impact/",
+      "wikiMatches": []
+    },
+    {
+      "title": "インペリアル千姫",
+      "timesCredit": "水矩",
+      "source": "https://wotageitimes.com/wazajiten/inperiarusenhime/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ウインドミル",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/windmill/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ウルティマゲイザー",
+      "timesCredit": "だいちゃま",
+      "source": "https://wotageitimes.com/wazajiten/ultimagazer/",
+      "wikiMatches": []
+    },
+    {
+      "title": "エフド",
+      "timesCredit": "セラ",
+      "source": "https://wotageitimes.com/wazajiten/ehud/",
+      "wikiMatches": []
+    },
+    {
+      "title": "エリノメ",
+      "timesCredit": "LemLy",
+      "source": "https://wotageitimes.com/wazajiten/erinome/",
+      "wikiMatches": []
+    },
+    {
+      "title": "エルトリックス",
+      "timesCredit": "Clifford",
+      "source": "https://wotageitimes.com/wazajiten/eltricks/",
+      "wikiMatches": [
+        {
+          "title": "エルトリックス〈El Tricks〉",
+          "original": "エルトリックス",
+          "wikiCredit": "{{Clifford}}",
+          "wikiHonke": "同上"
+        }
+      ]
+    },
+    {
+      "title": "オフィウクス",
+      "timesCredit": "Clifford",
+      "source": "https://wotageitimes.com/wazajiten/ophiuchus/",
+      "wikiMatches": []
+    },
+    {
+      "title": "カトリーナ",
+      "timesCredit": "えのらげい",
+      "source": "https://wotageitimes.com/wazajiten/katrina/",
+      "wikiMatches": []
+    },
+    {
+      "title": "カノンデール",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/cannondale/",
+      "wikiMatches": [
+        {
+          "title": "カノンデール〈佳能戴尔〉",
+          "original": "カノンデール",
+          "wikiCredit": "{{Gear}}",
+          "wikiHonke": "{{Gear}}"
+        }
+      ]
+    },
+    {
+      "title": "カンザシ",
+      "timesCredit": "時雨",
+      "source": "https://wotageitimes.com/wazajiten/kanzashi/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ガチ崩壊",
+      "timesCredit": "秋吉 、 まあい 読み方：ガチホウカイ 英語名：Gachi-Hokai",
+      "source": "https://wotageitimes.com/wazajiten/gachihokai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "キャノン砲",
+      "timesCredit": "はましゅん",
+      "source": "https://wotageitimes.com/wazajiten/cannon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ギルガメッシュ",
+      "timesCredit": "零夜",
+      "source": "https://wotageitimes.com/wazajiten/gilgamesh/",
+      "wikiMatches": [
+        {
+          "title": "ギルガメッシュ〈吉尔伽美什〉",
+          "original": "ギルガメッシュ",
+          "wikiCredit": "{{零夜}}",
+          "wikiHonke": "{{零夜}}"
+        }
+      ]
+    },
+    {
+      "title": "クラウドサンダー",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/cloudthunder/",
+      "wikiMatches": []
+    },
+    {
+      "title": "クラミツハ",
+      "timesCredit": "なか",
+      "source": "https://wotageitimes.com/wazajiten/kuramitsuha/",
+      "wikiMatches": []
+    },
+    {
+      "title": "グリフォン",
+      "timesCredit": "成城学園ヲタ芸界隈SJOG 現本家：白狐",
+      "source": "https://wotageitimes.com/wazajiten/gryphon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "グレア",
+      "timesCredit": "Lemly",
+      "source": "https://wotageitimes.com/wazajiten/glare/",
+      "wikiMatches": []
+    },
+    {
+      "title": "グングニール",
+      "timesCredit": "おさる",
+      "source": "https://wotageitimes.com/wazajiten/gungnir/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ゲート",
+      "timesCredit": "JKz",
+      "source": "https://wotageitimes.com/wazajiten/gate/",
+      "wikiMatches": []
+    },
+    {
+      "title": "コトアマツカミ",
+      "timesCredit": "日比野 やまかず",
+      "source": "https://wotageitimes.com/wazajiten/kotoamatsukami/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ゴリラドライブ",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/gorilladrive/",
+      "wikiMatches": []
+    },
+    {
+      "title": "サダハル",
+      "timesCredit": "ぽぽら",
+      "source": "https://wotageitimes.com/wazajiten/sadaharu/",
+      "wikiMatches": [
+        {
+          "title": "サダハル〈Sadaharu〉",
+          "original": "サダハル",
+          "wikiCredit": "{{popora}}",
+          "wikiHonke": "{{popora}}"
+        }
+      ]
+    },
+    {
+      "title": "サンダースネイク",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/thundersnake/",
+      "wikiMatches": [
+        {
+          "title": "サンダースネイク〈雷蛇〉",
+          "original": "サンダースネイク",
+          "wikiCredit": "未明",
+          "wikiHonke": "{{BackHorn}}"
+        }
+      ]
+    },
+    {
+      "title": "シナト",
+      "timesCredit": "きよたっきー",
+      "source": "https://wotageitimes.com/wazajiten/shinato/",
+      "wikiMatches": []
+    },
+    {
+      "title": "シャオリー",
+      "timesCredit": "ばっくほーん",
+      "source": "https://wotageitimes.com/wazajiten/shaory/",
+      "wikiMatches": [
+        {
+          "title": "シャオリー〈消力〉",
+          "original": "シャオリー",
+          "wikiCredit": "{{BackHorn}}",
+          "wikiHonke": "{{Gear}}"
+        }
+      ]
+    },
+    {
+      "title": "シースネイク",
+      "timesCredit": "ひろぴー",
+      "source": "https://wotageitimes.com/wazajiten/seasuneiku/",
+      "wikiMatches": []
+    },
+    {
+      "title": "スサノオ",
+      "timesCredit": "ゆーと",
+      "source": "https://wotageitimes.com/wazajiten/susanoo/",
+      "wikiMatches": [
+        {
+          "title": "スサノオ〈须佐之男〉",
+          "original": "スサノオ",
+          "wikiCredit": "{{yu-to}}",
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "スティグマ",
+      "timesCredit": "きゃにおん",
+      "source": "https://wotageitimes.com/wazajiten/stigma/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ステルス・ヒッキー",
+      "timesCredit": "蒼空",
+      "source": "https://wotageitimes.com/wazajiten/stealthhickey/",
+      "wikiMatches": []
+    },
+    {
+      "title": "スネイクサンダー",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/snakethunder/",
+      "wikiMatches": []
+    },
+    {
+      "title": "スマブラ拳",
+      "timesCredit": "ばっくほーん",
+      "source": "https://wotageitimes.com/wazajiten/smabrofist/",
+      "wikiMatches": []
+    },
+    {
+      "title": "スーパープルーム",
+      "timesCredit": "はましゅん",
+      "source": "https://wotageitimes.com/wazajiten/superplume/",
+      "wikiMatches": []
+    },
+    {
+      "title": "セクシーちょんぼ",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/sexychonbo/",
+      "wikiMatches": [
+        {
+          "title": "セクシーちょんぼ〈性感蝴蝶⧸性感琼波〉",
+          "original": "セクシーちょんぼ",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "セクシーちょんぼ改",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/sexychonbokai/",
+      "wikiMatches": [
+        {
+          "title": "セクシーちょんぼ改〈性感蝴蝶改⧸性感琼波改〉",
+          "original": "セクシーちょんぼ改",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "セク神舞",
+      "timesCredit": "ゆうちゃま",
+      "source": "https://wotageitimes.com/wazajiten/sexinbu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ゼノモーフ",
+      "timesCredit": "ミザエル",
+      "source": "https://wotageitimes.com/wazajiten/xenomorph/",
+      "wikiMatches": [
+        {
+          "title": "ゼノモーフ〈异形〉",
+          "original": "ゼノモーフ",
+          "wikiCredit": "{{Mizaeru}}",
+          "wikiHonke": "{{Mizaeru}}"
+        }
+      ]
+    },
+    {
+      "title": "ソイヤ",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/soiya/",
+      "wikiMatches": []
+    },
+    {
+      "title": "チェルシースノウ",
+      "timesCredit": "さとぅー",
+      "source": "https://wotageitimes.com/wazajiten/tyerusi-suno/",
+      "wikiMatches": []
+    },
+    {
+      "title": "チェンジ・ザ・ワールド",
+      "timesCredit": "JKz",
+      "source": "https://wotageitimes.com/wazajiten/changetheworld/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ツイストダイブ",
+      "timesCredit": "ホツー",
+      "source": "https://wotageitimes.com/wazajiten/twistdive/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ツクヨミ",
+      "timesCredit": "零",
+      "source": "https://wotageitimes.com/wazajiten/tsukuyomi/",
+      "wikiMatches": [
+        {
+          "title": "ツクヨミ〈月读〉",
+          "original": "ツクヨミ",
+          "wikiCredit": "{{零}}",
+          "wikiHonke": "{{零}}"
+        }
+      ]
+    },
+    {
+      "title": "トヨヒサ",
+      "timesCredit": "アツシアボカド",
+      "source": "https://wotageitimes.com/wazajiten/toyohisa/",
+      "wikiMatches": []
+    },
+    {
+      "title": "トランスポートステーション",
+      "timesCredit": "しゅんみな",
+      "source": "https://wotageitimes.com/wazajiten/transportstation/",
+      "wikiMatches": []
+    },
+    {
+      "title": "トーチ",
+      "timesCredit": null,
+      "source": "https://wotageitimes.com/wazajiten/torch/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ドらんおじグーンスピア",
+      "timesCredit": "らんおじ",
+      "source": "https://wotageitimes.com/wazajiten/doranojigu-nsupia/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ドクターペッパー",
+      "timesCredit": "とらぺ",
+      "source": "https://wotageitimes.com/wazajiten/drpepper/",
+      "wikiMatches": [
+        {
+          "title": "ドクターペッパー〈胡椒博士〈Dr.Pepper〉〉",
+          "original": "ドクターペッパー",
+          "wikiCredit": null,
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "ドラアードスピア",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/dora-ado-spear/",
+      "wikiMatches": [
+        {
+          "title": "ドラアードスピア〈Ado矛〉",
+          "original": "ドラアードスピア",
+          "wikiCredit": "{{U-Na}}",
+          "wikiHonke": "{{U-Na}}"
+        }
+      ]
+    },
+    {
+      "title": "ドライガースピア",
+      "timesCredit": "ぴーくん",
+      "source": "https://wotageitimes.com/wazajiten/drigerspear/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ドラグーンスピア",
+      "timesCredit": "相馬怜治",
+      "source": "https://wotageitimes.com/wazajiten/dragoonspear/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ドリームらんど",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/dreamland/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ナルシス",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/narcisse/",
+      "wikiMatches": [
+        {
+          "title": "ナルシス〈自恋〉",
+          "original": "ナルシス",
+          "wikiCredit": "不明",
+          "wikiHonke": "不明"
+        }
+      ]
+    },
+    {
+      "title": "ナルメア",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/narmaya/",
+      "wikiMatches": [
+        {
+          "title": "ナルメア〈娜露梅亚〉",
+          "original": "ナルメア",
+          "wikiCredit": "{{Latte}}",
+          "wikiHonke": "{{Latte}}"
+        }
+      ]
+    },
+    {
+      "title": "ナルメア廻",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/narmaya-kai/",
+      "wikiMatches": [
+        {
+          "title": "ナルメア廻〈娜露梅亚廻〉",
+          "original": "ナルメア廻",
+          "wikiCredit": "{{Latte}}",
+          "wikiHonke": "{{Latte}}"
+        }
+      ]
+    },
+    {
+      "title": "ニーハイオーハイ",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/kneehighohhigh/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ネメシス",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/nemeshisu/",
+      "wikiMatches": [
+        {
+          "title": "ネメシス〈复仇女神〉",
+          "original": "ネメシス",
+          "wikiCredit": "{{Latte}}",
+          "wikiHonke": "{{Latte}}"
+        }
+      ]
+    },
+    {
+      "title": "ハイドロカノン",
+      "timesCredit": "ぽくぽく",
+      "source": "https://wotageitimes.com/wazajiten/hydro-cannon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ハードプラント",
+      "timesCredit": "藍弱",
+      "source": "https://wotageitimes.com/wazajiten/frenzy-plant/",
+      "wikiMatches": []
+    },
+    {
+      "title": "パレンティア",
+      "timesCredit": "こじこじ　Lemly",
+      "source": "https://wotageitimes.com/wazajiten/palentia/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ヒラマサ",
+      "timesCredit": "ひろぴー",
+      "source": "https://wotageitimes.com/wazajiten/hiramasa/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ヒルコ",
+      "timesCredit": "よしおよぎ",
+      "source": "https://wotageitimes.com/wazajiten/hiruko/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ビットセッター",
+      "timesCredit": "ふぁる",
+      "source": "https://wotageitimes.com/wazajiten/bitsetter/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ファウスト",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/faust/",
+      "wikiMatches": [
+        {
+          "title": "ファウスト〈浮士德〉",
+          "original": "ファウスト",
+          "wikiCredit": "{{U-Na}}",
+          "wikiHonke": "同上"
+        }
+      ]
+    },
+    {
+      "title": "ファングバイト",
+      "timesCredit": "Q_w",
+      "source": "https://wotageitimes.com/wazajiten/fangbite/",
+      "wikiMatches": []
+    },
+    {
+      "title": "フラウ・アルトリア",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/furauarutoria/",
+      "wikiMatches": []
+    },
+    {
+      "title": "フロアライズ",
+      "timesCredit": "ホツー",
+      "source": "https://wotageitimes.com/wazajiten/floorrise/",
+      "wikiMatches": [
+        {
+          "title": "フロアライズ〈‌地面抬升〉",
+          "original": "フロアライズ",
+          "wikiCredit": "{{Clifford}}",
+          "wikiHonke": "同上"
+        }
+      ]
+    },
+    {
+      "title": "ブラストバーン",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/blast-burn/",
+      "wikiMatches": []
+    },
+    {
+      "title": "プレーデ",
+      "timesCredit": "ふぇると",
+      "source": "https://wotageitimes.com/wazajiten/plade/",
+      "wikiMatches": []
+    },
+    {
+      "title": "プロゲーマー",
+      "timesCredit": "レフドール",
+      "source": "https://wotageitimes.com/wazajiten/professional-gamer/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ベラトリクス",
+      "timesCredit": "たかと",
+      "source": "https://wotageitimes.com/wazajiten/bellatrix/",
+      "wikiMatches": []
+    },
+    {
+      "title": "マドモアゼルハンケチーフ",
+      "timesCredit": "アツシアボカド",
+      "source": "https://wotageitimes.com/wazajiten/mademoisellehandkerchief/",
+      "wikiMatches": []
+    },
+    {
+      "title": "マルチロール",
+      "timesCredit": "たかとも",
+      "source": "https://wotageitimes.com/wazajiten/multiroll/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ミステイク",
+      "timesCredit": "いかちゅん",
+      "source": "https://wotageitimes.com/wazajiten/%e3%83%9f%e3%82%b9%e3%83%86%e3%82%a4%e3%82%af/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ミズナルキッス",
+      "timesCredit": "さっつん 読み方：ミズナルキッス 英語名：Ms.Narkiss",
+      "source": "https://wotageitimes.com/wazajiten/msnarkiss/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ミセスナルシッサ",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/mrsnarcissa/",
+      "wikiMatches": [
+        {
+          "title": "ミセスナルシッサ〈自恋小姐⧸水仙夫人〉",
+          "original": "ミセスナルシッサ",
+          "wikiCredit": "{{注音|ギア|Gear}}",
+          "wikiHonke": "{{注音|ギア|Gear}}"
+        }
+      ]
+    },
+    {
+      "title": "ムツノカミ",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/mutsunokami/",
+      "wikiMatches": [
+        {
+          "title": "ムツノカミ〈陆奥守（吉行）〉",
+          "original": "ムツノカミ",
+          "wikiCredit": "{{Gear}}",
+          "wikiHonke": "{{Gear}}"
+        }
+      ]
+    },
+    {
+      "title": "ムラマサ",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/muramasa/",
+      "wikiMatches": [
+        {
+          "title": "ムラマサ〈村正〉",
+          "original": "ムラマサ",
+          "wikiCredit": "[https://www.bilibili.com/video/BV1xw411y76B {{注音|三宅|じーたん|@ranbuta_kusoge}}]<ref> 村正本正，光棒艺中的村正是由相马怜治的“村正”，即アサルトブレイク(assault break)改编而来",
+          "wikiHonke": "{{BackHorn}}"
+        }
+      ]
+    },
+    {
+      "title": "ムラマサoriginal ver.",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/muramasa-original-ver/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ユナメア",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/yunamea/",
+      "wikiMatches": [
+        {
+          "title": "ユナメア〈U-Na梅亚〉",
+          "original": "ユナメア",
+          "wikiCredit": "{{U-Na}}",
+          "wikiHonke": "{{U-Na}}"
+        }
+      ]
+    },
+    {
+      "title": "ライザー",
+      "timesCredit": "かとつよ",
+      "source": "https://wotageitimes.com/wazajiten/raiza/",
+      "wikiMatches": [
+        {
+          "title": "ライザー〈上升者〈riser〉〉",
+          "original": "ライザー",
+          "wikiCredit": null,
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "ランバード",
+      "timesCredit": "あっしー",
+      "source": "https://wotageitimes.com/wazajiten/runbard/",
+      "wikiMatches": []
+    },
+    {
+      "title": "リバーサイズ",
+      "timesCredit": "鼓",
+      "source": "https://wotageitimes.com/wazajiten/riversize/",
+      "wikiMatches": []
+    },
+    {
+      "title": "リベルザネッティ",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/liberzanetti/",
+      "wikiMatches": []
+    },
+    {
+      "title": "リベルザネッティ改",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/liberzanetti-kai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "レクイエム",
+      "timesCredit": "さんた",
+      "source": "https://wotageitimes.com/wazajiten/requiem/",
+      "wikiMatches": [
+        {
+          "title": "レクイエム〈镇魂曲〉",
+          "original": "レクイエム",
+          "wikiCredit": null,
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "レッドブル",
+      "timesCredit": "やまかず",
+      "source": "https://wotageitimes.com/wazajiten/redbull/",
+      "wikiMatches": []
+    },
+    {
+      "title": "レディウス",
+      "timesCredit": "れお",
+      "source": "https://wotageitimes.com/wazajiten/redious/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ロサンゼルス",
+      "timesCredit": "まお",
+      "source": "https://wotageitimes.com/wazajiten/losangeles/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ロザリオ",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/rosario/",
+      "wikiMatches": [
+        {
+          "title": "ロザリオ〈十字架〉",
+          "original": "ロザリオ",
+          "wikiCredit": "未明",
+          "wikiHonke": "未明"
+        }
+      ]
+    },
+    {
+      "title": "ロトの紋章",
+      "timesCredit": "ロト",
+      "source": "https://wotageitimes.com/wazajiten/rotonomonsyou/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ロマンス",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/romance/",
+      "wikiMatches": [
+        {
+          "title": "ロマンス〈罗曼斯〉",
+          "original": "ロマンス",
+          "wikiCredit": "不明",
+          "wikiHonke": "不明"
+        }
+      ]
+    },
+    {
+      "title": "ロマンス警報",
+      "timesCredit": "不明",
+      "source": "https://wotageitimes.com/wazajiten/romancealarm/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ワイタックス",
+      "timesCredit": "わいてぃー",
+      "source": "https://wotageitimes.com/wazajiten/waitakkusu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "ワンハンドスネイク",
+      "timesCredit": "LemLy",
+      "source": "https://wotageitimes.com/wazajiten/onehandsnake/",
+      "wikiMatches": []
+    },
+    {
+      "title": "一途",
+      "timesCredit": "藍弱 読み方：いちず 英語名：Ichizu",
+      "source": "https://wotageitimes.com/wazajiten/ichizu/",
+      "wikiMatches": [
+        {
+          "title": "一途",
+          "original": "一途",
+          "wikiCredit": "{{I-Jack}}",
+          "wikiHonke": "{{I-Jack}}"
+        }
+      ]
+    },
+    {
+      "title": "不知火",
+      "timesCredit": "でゅな！",
+      "source": "https://wotageitimes.com/wazajiten/shiranui/",
+      "wikiMatches": []
+    },
+    {
+      "title": "九尾滅龍斬",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/kyubimeturyuzan/",
+      "wikiMatches": []
+    },
+    {
+      "title": "仁天門",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/nitenmon/",
+      "wikiMatches": [
+        {
+          "title": "仁天門〈仁天门〉",
+          "original": "仁天門",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "仁王門",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/nioumon/",
+      "wikiMatches": [
+        {
+          "title": "仁王門〈仁王门〉",
+          "original": "仁王門",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "仙法・五右衛門",
+      "timesCredit": "ぽくぽく",
+      "source": "https://wotageitimes.com/wazajiten/senpougomemon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "修羅刀",
+      "timesCredit": "時雨",
+      "source": "https://wotageitimes.com/wazajiten/syura-gatana/",
+      "wikiMatches": []
+    },
+    {
+      "title": "十味バタフライ",
+      "timesCredit": "アツシアボカド",
+      "source": "https://wotageitimes.com/wazajiten/tomibatahurai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "十拳剣・陣",
+      "timesCredit": "とっちー☆",
+      "source": "https://wotageitimes.com/wazajiten/totsukanoturugijin/",
+      "wikiMatches": []
+    },
+    {
+      "title": "十拳剣・鮮血",
+      "timesCredit": null,
+      "source": "https://wotageitimes.com/wazajiten/totsuka-no-tsurugi%e3%83%bbsenketsu/",
+      "wikiMatches": [
+        {
+          "title": "十拳剣・鮮血〈十拳剑·鲜血〉",
+          "original": "十拳剣・鮮血",
+          "wikiCredit": "{{Mikuto}}",
+          "wikiHonke": "{{Mikuto}}"
+        }
+      ]
+    },
+    {
+      "title": "呂布",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/ryofu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "呂玲綺",
+      "timesCredit": "ねぷ",
+      "source": "https://wotageitimes.com/wazajiten/ryoreiki/",
+      "wikiMatches": []
+    },
+    {
+      "title": "城天丸",
+      "timesCredit": "龍",
+      "source": "https://wotageitimes.com/wazajiten/jotenmaru/",
+      "wikiMatches": []
+    },
+    {
+      "title": "境界の彼方",
+      "timesCredit": "とっちー☆",
+      "source": "https://wotageitimes.com/wazajiten/kyoukainokanata/",
+      "wikiMatches": []
+    },
+    {
+      "title": "天翔",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/amakakeru/",
+      "wikiMatches": [
+        {
+          "title": "天翔",
+          "original": "天翔",
+          "wikiCredit": "{{Gear}}",
+          "wikiHonke": "{{Gear}}"
+        }
+      ]
+    },
+    {
+      "title": "天翔皇子",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/amakakerumiko/",
+      "wikiMatches": []
+    },
+    {
+      "title": "封龍剣超絶一門",
+      "timesCredit": "セラ",
+      "source": "https://wotageitimes.com/wazajiten/huryukentyouzetuitimon/",
+      "wikiMatches": [
+        {
+          "title": "封龍剣超絶一門〈封龙剑超绝一门〉",
+          "original": "封龍剣超絶一門",
+          "wikiCredit": "{{sera}}",
+          "wikiHonke": "{{sera}}"
+        }
+      ]
+    },
+    {
+      "title": "平等院鳳凰堂阿弥陀如来像",
+      "timesCredit": "とっちー☆",
+      "source": "https://wotageitimes.com/wazajiten/byoudouinamida/",
+      "wikiMatches": []
+    },
+    {
+      "title": "平等院鳳凰堂鳳凰像",
+      "timesCredit": "とっちー☆",
+      "source": "https://wotageitimes.com/wazajiten/byoudouinhouodohouozo/",
+      "wikiMatches": []
+    },
+    {
+      "title": "式波",
+      "timesCredit": null,
+      "source": "https://wotageitimes.com/wazajiten/shikinami/",
+      "wikiMatches": [
+        {
+          "title": "式波",
+          "original": "式波",
+          "wikiCredit": "{{Mikuto}}",
+          "wikiHonke": "{{Mikuto}}"
+        }
+      ]
+    },
+    {
+      "title": "影武者",
+      "timesCredit": "さい",
+      "source": "https://wotageitimes.com/wazajiten/kagemusya/",
+      "wikiMatches": []
+    },
+    {
+      "title": "律浪",
+      "timesCredit": "きゃにおん",
+      "source": "https://wotageitimes.com/wazajiten/%e5%be%8b%e6%b5%aa%e3%82%8a%e3%81%a4%e3%82%8d%e3%81%86/",
+      "wikiMatches": []
+    },
+    {
+      "title": "御手杵",
+      "timesCredit": "ギア",
+      "source": "https://wotageitimes.com/wazajiten/otegine/",
+      "wikiMatches": []
+    },
+    {
+      "title": "恐竜拳",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/%e6%81%90%e7%ab%9c%e6%8b%b3/",
+      "wikiMatches": [
+        {
+          "title": "恐竜拳〈恐龙拳〉",
+          "original": "恐竜拳",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "{{Perikan}}"
+        }
+      ]
+    },
+    {
+      "title": "断刀",
+      "timesCredit": "はら",
+      "source": "https://wotageitimes.com/wazajiten/dantou/",
+      "wikiMatches": [
+        {
+          "title": "断刀",
+          "original": "断刀",
+          "wikiCredit": "{{Hara}}",
+          "wikiHonke": "{{Hara}}"
+        }
+      ]
+    },
+    {
+      "title": "時の紋章",
+      "timesCredit": "時雨",
+      "source": "https://wotageitimes.com/wazajiten/tokinomonsyou/",
+      "wikiMatches": [
+        {
+          "title": "時の紋章〈时之纹章〉",
+          "original": "時の紋章",
+          "wikiCredit": "{{時雨}}",
+          "wikiHonke": "{{時雨}}"
+        }
+      ]
+    },
+    {
+      "title": "曙",
+      "timesCredit": "きゃにおん",
+      "source": "https://wotageitimes.com/wazajiten/akebono/",
+      "wikiMatches": []
+    },
+    {
+      "title": "木葉隠",
+      "timesCredit": "木葉",
+      "source": "https://wotageitimes.com/wazajiten/konohagakure/",
+      "wikiMatches": []
+    },
+    {
+      "title": "朱雀",
+      "timesCredit": null,
+      "source": "https://wotageitimes.com/wazajiten/suzaku/",
+      "wikiMatches": [
+        {
+          "title": "朱雀",
+          "original": "朱雀",
+          "wikiCredit": "{{shun}}",
+          "wikiHonke": "{{shun}}"
+        },
+        {
+          "title": "朱雀真身",
+          "original": "朱雀",
+          "wikiCredit": null,
+          "wikiHonke": null
+        }
+      ]
+    },
+    {
+      "title": "朱雀乱舞",
+      "timesCredit": "シュン",
+      "source": "https://wotageitimes.com/wazajiten/suzakuranbu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "桜華",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/ouka/",
+      "wikiMatches": [
+        {
+          "title": "桜華〈桜华⧸樱华〉",
+          "original": "桜華",
+          "wikiCredit": "{{Latte}}",
+          "wikiHonke": "{{Latte}}"
+        }
+      ]
+    },
+    {
+      "title": "桜蘭",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/oran/",
+      "wikiMatches": []
+    },
+    {
+      "title": "桜龍",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/oryu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "氷刃・七連舞",
+      "timesCredit": "ガブ",
+      "source": "https://wotageitimes.com/wazajiten/hyojinnanarenbu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "流星スネイク",
+      "timesCredit": "らすく",
+      "source": "https://wotageitimes.com/wazajiten/ryuseisnake/",
+      "wikiMatches": [
+        {
+          "title": "旧流星スネイク〈旧流星蛇〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": null
+        },
+        {
+          "title": "流星スネイク はらver〈流星蛇 はらver〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": "{{Hara}}"
+        },
+        {
+          "title": "流星スネイク ふぇるとver〈流星蛇 ふぇるとver〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": "{{felt}}"
+        },
+        {
+          "title": "流星スネイク ギアver2〈流星蛇 ギアver2〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": "{{Gear}}"
+        },
+        {
+          "title": "流星スネイク ギアver〈流星蛇 ギアver〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": "{{Gear}}"
+        },
+        {
+          "title": "流星スネイク 白狐ver〈流星蛇 白狐ver〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": "{{Hako}}"
+        },
+        {
+          "title": "流星スネイク〈流星蛇 らすくver〉",
+          "original": "流星スネイク",
+          "wikiCredit": "{{Rask}}",
+          "wikiHonke": "{{Rask}}"
+        }
+      ]
+    },
+    {
+      "title": "溺愛",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/dekiai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "烈剣",
+      "timesCredit": "ななせ",
+      "source": "https://wotageitimes.com/wazajiten/rekken/",
+      "wikiMatches": [
+        {
+          "title": "烈剣〈烈剑〉",
+          "original": "烈剣",
+          "wikiCredit": "{{nanase}}",
+          "wikiHonke": "{{nanase}}"
+        }
+      ]
+    },
+    {
+      "title": "烈火",
+      "timesCredit": "刹那",
+      "source": "https://wotageitimes.com/wazajiten/%e7%83%88%e7%81%ab%e3%82%8c%e3%81%a3%e3%81%8b/",
+      "wikiMatches": []
+    },
+    {
+      "title": "烏龍盤打",
+      "timesCredit": "Clifford",
+      "source": "https://wotageitimes.com/wazajiten/uronpanda/",
+      "wikiMatches": []
+    },
+    {
+      "title": "無銘刀ムラマサ",
+      "timesCredit": "めんたいこ",
+      "source": "https://wotageitimes.com/wazajiten/mumeitomuramasa/",
+      "wikiMatches": []
+    },
+    {
+      "title": "燕",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/tsubame/",
+      "wikiMatches": [
+        {
+          "title": "燕",
+          "original": "燕",
+          "wikiCredit": "{{Yuukichi}}",
+          "wikiHonke": "{{Yuukichi}}"
+        }
+      ]
+    },
+    {
+      "title": "燕-壊-",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/tsubame-kai/",
+      "wikiMatches": [
+        {
+          "title": "燕-壊-〈燕-坏-〉",
+          "original": "燕-壊-",
+          "wikiCredit": "{{Yukichi}}",
+          "wikiHonke": "{{Yukichi}}"
+        }
+      ]
+    },
+    {
+      "title": "牙紋",
+      "timesCredit": "Q_w",
+      "source": "https://wotageitimes.com/wazajiten/hamon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "狐憑",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/kitunetuki/",
+      "wikiMatches": []
+    },
+    {
+      "title": "白槍",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/hakukan-shiroyari/",
+      "wikiMatches": []
+    },
+    {
+      "title": "白正",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/shiromasa/",
+      "wikiMatches": []
+    },
+    {
+      "title": "白濤",
+      "timesCredit": "白狐 読み方：しらなみ 英語名：Shiranami",
+      "source": "https://wotageitimes.com/wazajiten/shiranami/",
+      "wikiMatches": [
+        {
+          "title": "白濤〈白涛〉",
+          "original": "白濤",
+          "wikiCredit": "{{Hako}}",
+          "wikiHonke": "{{Hako}}"
+        }
+      ]
+    },
+    {
+      "title": "白門",
+      "timesCredit": "白狐",
+      "source": "https://wotageitimes.com/wazajiten/shiromon/",
+      "wikiMatches": [
+        {
+          "title": "白門〈白门〉",
+          "original": "白門",
+          "wikiCredit": "{{Hako}}",
+          "wikiHonke": "{{Hako}}"
+        }
+      ]
+    },
+    {
+      "title": "社オリー",
+      "timesCredit": "あいぱか社長",
+      "source": "https://wotageitimes.com/wazajiten/shaory-2/",
+      "wikiMatches": []
+    },
+    {
+      "title": "社舞流",
+      "timesCredit": "あいぱか社長",
+      "source": "https://wotageitimes.com/wazajiten/syaburu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "神代桜",
+      "timesCredit": "時雨",
+      "source": "https://wotageitimes.com/wazajiten/kamisirozakura/",
+      "wikiMatches": []
+    },
+    {
+      "title": "神代桜花",
+      "timesCredit": "時雨",
+      "source": "https://wotageitimes.com/wazajiten/kamisiroouka/",
+      "wikiMatches": []
+    },
+    {
+      "title": "神威",
+      "timesCredit": "オカギア",
+      "source": "https://wotageitimes.com/wazajiten/kamui/",
+      "wikiMatches": [
+        {
+          "title": "神威",
+          "original": "神威",
+          "wikiCredit": "{{Okagia}}",
+          "wikiHonke": "{{Okagia}}"
+        }
+      ]
+    },
+    {
+      "title": "神知火",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/kamunui/",
+      "wikiMatches": []
+    },
+    {
+      "title": "神舞裂帛",
+      "timesCredit": "だいちゃま",
+      "source": "https://wotageitimes.com/wazajiten/shinbureppaku/",
+      "wikiMatches": []
+    },
+    {
+      "title": "紅蓮華斬殺",
+      "timesCredit": "セラ",
+      "source": "https://wotageitimes.com/wazajiten/gurengezansatu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "紫蓮",
+      "timesCredit": "ろぐれす",
+      "source": "https://wotageitimes.com/wazajiten/shiren/",
+      "wikiMatches": []
+    },
+    {
+      "title": "綿月",
+      "timesCredit": "らて",
+      "source": "https://wotageitimes.com/wazajiten/watatsuki/",
+      "wikiMatches": [
+        {
+          "title": "綿月〈绵月〉",
+          "original": "綿月",
+          "wikiCredit": "{{Latte}}",
+          "wikiHonke": "{{Latte}}"
+        }
+      ]
+    },
+    {
+      "title": "羽蝶番",
+      "timesCredit": "シト",
+      "source": "https://wotageitimes.com/wazajiten/hanecyotsugai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "苺愛",
+      "timesCredit": "アツシアボカド",
+      "source": "https://wotageitimes.com/wazajiten/ichia/",
+      "wikiMatches": []
+    },
+    {
+      "title": "茹でシラス",
+      "timesCredit": "ひろぴー",
+      "source": "https://wotageitimes.com/wazajiten/yudeshirasu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "菊ノ花紋",
+      "timesCredit": "めんたいこ",
+      "source": "https://wotageitimes.com/wazajiten/kikunokamon/",
+      "wikiMatches": []
+    },
+    {
+      "title": "蝶番",
+      "timesCredit": "シト",
+      "source": "https://wotageitimes.com/wazajiten/choutsugai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "表裏一体",
+      "timesCredit": "アツシアボカド",
+      "source": "https://wotageitimes.com/wazajiten/hyoriittai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "覇修羅",
+      "timesCredit": "時雨",
+      "source": "https://wotageitimes.com/wazajiten/vajra/",
+      "wikiMatches": []
+    },
+    {
+      "title": "豚侍",
+      "timesCredit": "えりっく",
+      "source": "https://wotageitimes.com/wazajiten/butazamurai/",
+      "wikiMatches": [
+        {
+          "title": "豚侍",
+          "original": "豚侍",
+          "wikiCredit": "えりっく",
+          "wikiHonke": "えりっく"
+        }
+      ]
+    },
+    {
+      "title": "赤門",
+      "timesCredit": "藍弱",
+      "source": "https://wotageitimes.com/wazajiten/akamon/",
+      "wikiMatches": [
+        {
+          "title": "赤門〈赤门〉",
+          "original": "赤門",
+          "wikiCredit": "{{I-Jack}}",
+          "wikiHonke": "{{I-Jack}}"
+        }
+      ]
+    },
+    {
+      "title": "走鳥",
+      "timesCredit": "りのまる",
+      "source": "https://wotageitimes.com/wazajiten/runbard-kanji/",
+      "wikiMatches": []
+    },
+    {
+      "title": "身体天賦",
+      "timesCredit": "ぽくぽく 読み方：フィジカルギフテッド 英語名：Physical Gifted",
+      "source": "https://wotageitimes.com/wazajiten/physicalgifted/",
+      "wikiMatches": [
+        {
+          "title": "身体天賦〈身体天赋〉",
+          "original": "身体天賦",
+          "wikiCredit": "{{Poku}}",
+          "wikiHonke": "{{Poku}}"
+        }
+      ]
+    },
+    {
+      "title": "金剛",
+      "timesCredit": "よるる",
+      "source": "https://wotageitimes.com/wazajiten/kongou/",
+      "wikiMatches": [
+        {
+          "title": "金剛〈金刚〉",
+          "original": "金剛",
+          "wikiCredit": "{{Yoruru}}",
+          "wikiHonke": "{{Yoruru}}"
+        }
+      ]
+    },
+    {
+      "title": "鈴羽",
+      "timesCredit": "水矩",
+      "source": "https://wotageitimes.com/wazajiten/suzuha/",
+      "wikiMatches": []
+    },
+    {
+      "title": "隼",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/hayabusa/",
+      "wikiMatches": []
+    },
+    {
+      "title": "霞ヶ門",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/kasumigamon/",
+      "wikiMatches": [
+        {
+          "title": "霞ヶ門〈霞门〉",
+          "original": "霞ヶ門",
+          "wikiCredit": "{{Yukichi}}",
+          "wikiHonke": "{{Yukichi}}"
+        }
+      ]
+    },
+    {
+      "title": "霞憐",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/karen/",
+      "wikiMatches": []
+    },
+    {
+      "title": "霞斬",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/kasumigiri/",
+      "wikiMatches": [
+        {
+          "title": "霞斬〈霞斩〉",
+          "original": "霞斬",
+          "wikiCredit": "{{Yukichi}}",
+          "wikiHonke": "{{Yukichi}}"
+        }
+      ]
+    },
+    {
+      "title": "霞翳",
+      "timesCredit": "さい 、 ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/kaei/",
+      "wikiMatches": []
+    },
+    {
+      "title": "霞草",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/%e9%ac%bc%e9%a0%ad%e5%80%99%e4%be%8d/",
+      "wikiMatches": []
+    },
+    {
+      "title": "露骨",
+      "timesCredit": "U-Na",
+      "source": "https://wotageitimes.com/wazajiten/rokotsu/",
+      "wikiMatches": []
+    },
+    {
+      "title": "青天霹靂",
+      "timesCredit": "ゆめかな",
+      "source": "https://wotageitimes.com/wazajiten/seitennohekireki/",
+      "wikiMatches": []
+    },
+    {
+      "title": "青森シャモロック",
+      "timesCredit": "まお",
+      "source": "https://wotageitimes.com/wazajiten/aomorisyamorock/",
+      "wikiMatches": [
+        {
+          "title": "青森シャモロック〈青森Shamolock〉",
+          "original": "青森シャモロック",
+          "wikiCredit": "{{Mao}}",
+          "wikiHonke": "{{Mao}}"
+        }
+      ]
+    },
+    {
+      "title": "青雀",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/aogara/",
+      "wikiMatches": [
+        {
+          "title": "青雀",
+          "original": "青雀",
+          "wikiCredit": "{{Yuukichi}}",
+          "wikiHonke": "{{Yuukichi}}"
+        }
+      ]
+    },
+    {
+      "title": "青雀黑",
+      "timesCredit": "ゆーきち",
+      "source": "https://wotageitimes.com/wazajiten/aogara-kuro/",
+      "wikiMatches": [
+        {
+          "title": "青雀黑",
+          "original": "青雀黑",
+          "wikiCredit": "{{Yukichi}}",
+          "wikiHonke": "{{Yukichi}}"
+        }
+      ]
+    },
+    {
+      "title": "青龍蒼",
+      "timesCredit": "しすてぃー",
+      "source": "https://wotageitimes.com/wazajiten/seiryu-sou/",
+      "wikiMatches": [
+        {
+          "title": "青龍蒼〈青龙苍〉",
+          "original": "青龍蒼",
+          "wikiCredit": "{{sisty}}",
+          "wikiHonke": "{{sisty}}"
+        }
+      ]
+    },
+    {
+      "title": "風神",
+      "timesCredit": "Clifford",
+      "source": "https://wotageitimes.com/wazajiten/hujin/",
+      "wikiMatches": [
+        {
+          "title": "風神〈风神〉",
+          "original": "風神",
+          "wikiCredit": "{{Clifford}}",
+          "wikiHonke": "同上"
+        }
+      ]
+    },
+    {
+      "title": "風雅",
+      "timesCredit": "航平 読み方：ふうが",
+      "source": "https://wotageitimes.com/wazajiten/huga/",
+      "wikiMatches": [
+        {
+          "title": "風雅〈风雅〉",
+          "original": "風雅",
+          "wikiCredit": "{{航平}}",
+          "wikiHonke": "{{航平}}"
+        }
+      ]
+    },
+    {
+      "title": "餓樂廻廊",
+      "timesCredit": "はるの",
+      "source": "https://wotageitimes.com/wazajiten/gagakukairo/",
+      "wikiMatches": []
+    },
+    {
+      "title": "鬼武者",
+      "timesCredit": "たかと",
+      "source": "https://wotageitimes.com/wazajiten/onimusya/",
+      "wikiMatches": []
+    },
+    {
+      "title": "鰻番",
+      "timesCredit": "黒ウサギ",
+      "source": "https://wotageitimes.com/wazajiten/unagitsugai/",
+      "wikiMatches": []
+    },
+    {
+      "title": "鵺",
+      "timesCredit": "ペリカン",
+      "source": "https://wotageitimes.com/wazajiten/nue/",
+      "wikiMatches": [
+        {
+          "title": "鵺",
+          "original": "鵺",
+          "wikiCredit": "{{Perikan}}",
+          "wikiHonke": "同上"
+        }
+      ]
+    },
+    {
+      "title": "黑穿",
+      "timesCredit": "ゆーきち 、 U-Na",
+      "source": "https://wotageitimes.com/wazajiten/kokusen/",
+      "wikiMatches": [
+        {
+          "title": "黑穿",
+          "original": "黑穿",
+          "wikiCredit": "{{Yukichi}}",
+          "wikiHonke": "{{Yukichi}}"
+        }
+      ]
+    }
+  ]
+}

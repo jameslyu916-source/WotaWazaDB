@@ -1,0 +1,52 @@
+{
+  "id": "w0003",
+  "status": "approved",
+  "name": "DeG",
+  "reading": "デグ",
+  "aliases": [],
+  "creators": [
+    "ペリカン"
+  ],
+  "sources": [
+    {
+      "label": "ヲタ芸タイムズ · 技辞典署名",
+      "url": "https://wotageitimes.com/wazajiten/deg/",
+      "labelI18n": {
+        "ja": "ヲタ芸タイムズ · 技辞典の作者表記",
+        "en": "ヲタ芸タイムズ · dictionary credit"
+      }
+    },
+    {
+      "label": "灰机 Wiki · DeG",
+      "url": "https://wotagei.huijiwiki.com/wiki/DeG",
+      "labelI18n": {
+        "ja": "灰机 Wiki · DeG",
+        "en": "灰机 Wiki · DeG"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "参考演示 · YouTube · 1:12",
+      "url": "https://www.youtube.com/watch?v=T10c0spouB8&t=72s",
+      "labelI18n": {
+        "ja": "参考実演 · YouTube · 1:12",
+        "en": "Demonstration · YouTube · 1:12"
+      }
+    },
+    {
+      "label": "灰机 Wiki 所列技连 · Bilibili · 6:00",
+      "url": "https://www.bilibili.com/video/BV1TX4y1o7H7?t=360",
+      "labelI18n": {
+        "ja": "灰机 Wiki 掲載の技連 · Bilibili · 6:00",
+        "en": "Compilation listed on Huiji Wiki · Bilibili · 6:00"
+      }
+    }
+  ],
+  "note": "灰机旧快照以 Perikan 模板署名。视频定位来自各自来源，本家待核。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "灰机 Wiki の旧版では Perikan 名義。開始位置は各出典による。本家動画は未確認。",
+    "en": "The Huiji Wiki snapshot credits Perikan. Each source gives its own timestamp. The original video is unconfirmed."
+  }
+}

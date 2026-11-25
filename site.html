@@ -1,0 +1,40 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WotaWazaDB · 技档案</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#242723;font:16px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:35px 5vw 80px}header{border-top:5px solid #d65325;padding:20px 0}h1{font:700 clamp(32px,6vw,58px)/1.1 Georgia,serif;margin:8px 0}header p{margin:8px 0;color:#5e6259}input{width:100%;font:inherit;padding:12px 16px;border:1px solid #aaa99d;border-radius:6px;background:white}details{border-top:1px solid #c9c8be;background:#fcfbf6;padding:14px 18px}summary{cursor:pointer}strong{font-size:20px;margin-right:1em}small{color:#595d53}a{color:#874019}p{margin:9px 0}li{margin:4px 0}ul{padding-left:22px}#count{font-size:14px;margin:18px 0 8px}code{overflow-wrap:anywhere}</style>
+<main><header><select id="lang" aria-label="Language / 言語 / 语言" style="float:right;padding:6px"><option value="zh">中文</option><option value="ja">日本語</option><option value="en">English</option></select><h1>WotaWazaDB</h1><p id="intro"></p></header><input id="q" type="search"><p id="count" aria-live="polite"></p><section id="list"></section></main>
+<script>const entries=/*DATA*/[];
+const review='@@MODE@@'==='review';
+const ui={
+ zh:['WOTA 艺技档案','审核预览','搜索技名、别名、读音或作成者','条记录','没有找到匹配的技','暂无已审核条目','作成者待考','视频投稿','作成日期','待审核','已收录','条目更新','补充待审'],
+ ja:['ヲタ芸の技アーカイブ','確認用プレビュー','技名・別名・読み・作者で検索','件','該当する技が見つかりません','確認済みの技はまだありません','作者未確認','動画投稿日','制作日','確認待ち','収録済み','項目更新','追加候補'],
+ en:['Wotagei move archive','Review preview','Search by move, alias, reading or creator','entries','No matching moves','No approved entries yet','Creator unconfirmed','Video posted','Creation date','Pending review','Archived','Entry updated','Pending addition']
+};
+const q=document.querySelector('#q'),picker=document.querySelector('#lang');
+let prefs=navigator.languages||[navigator.language];
+try{prefs=[localStorage.getItem('archive-lang'),...prefs]}catch{}
+picker.value=prefs.map(v=>v?.split('-')[0]).find(v=>Object.hasOwn(ui,v))||'en';
+const el=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;return n};
+const norm=s=>s.normalize('NFKC').toLowerCase();
+function render(){
+ const lang=picker.value,u=ui[lang],intro=u[0]+(review?' · '+u[1]:'');
+ document.documentElement.lang=lang==='zh'?'zh-CN':lang;document.title='WotaWazaDB · '+intro;
+ document.querySelector('#intro').textContent=intro;q.placeholder=u[2];q.setAttribute('aria-label',u[2]);
+ const box=document.querySelector('#list'),opened=new Set([...box.querySelectorAll('details[open]')].map(d=>d.id));box.replaceChildren();
+ const term=norm(q.value.trim());
+ const rows=entries.filter(e=>[e.name,e.reading,...e.aliases,...e.creators].filter(Boolean).some(v=>norm(v).includes(term)));
+ document.querySelector('#count').textContent=rows.length?rows.length+' '+(lang==='en'&&rows.length===1?'entry':u[3]):entries.length?u[4]:u[5];
+ for(const e of rows){
+ const d=el('details','');d.id=e.id;d.open=opened.has(e.id)||location.hash==='#'+e.id;
+ const s=el('summary','');s.append(el('strong',e.name),el('small',e.creators.join(lang==='en'?', ':'、')||u[6]));d.append(s);
+ if(e.reading||e.aliases.length)d.append(el('p',[e.reading,...e.aliases].filter(Boolean).join(' · ')));
+ const links=el('ul','');
+ for(const item of [...e.videos,...e.sources]){
+ const label=item.labelI18n?.[lang]||item.label;
+ const a=el('a',(item.pending?u[12]+' · ':'')+label);a.href=item.url;
+ const li=el('li','');li.append(a);if(item.published)li.append(' · '+u[7]+' '+item.published);links.append(li);
+ }
+ d.append(links);
+ if(e.creation)d.append(el('p',u[8]+' '+e.creation.date+' · '+(e.creation.evidenceI18n?.[lang]||e.creation.evidence)));
+ d.append(el('p',e.noteI18n?.[lang]||e.note),el('small',e.id+' · '+u[e.status==='pending'?9:10]+' · '+u[11]+' '+e.updated));box.append(d);
+ }}
+picker.addEventListener('change',()=>{try{localStorage.setItem('archive-lang',picker.value)}catch{}render()});
+q.addEventListener('input',render);render();</script></html>

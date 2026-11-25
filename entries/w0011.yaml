@@ -1,0 +1,36 @@
+{
+  "id": "w0011",
+  "status": "pending",
+  "name": "旋律",
+  "reading": "せんりつ",
+  "aliases": [],
+  "creators": [
+    "らて"
+  ],
+  "sources": [
+    {
+      "label": "らて · 作者自述",
+      "url": "https://note.com/14tte/n/n367007db5724",
+      "labelI18n": {
+        "ja": "らて · 作者による回顧",
+        "en": "らて · creator retrospective"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "AI 补找 · X 参考视频",
+      "url": "https://x.com/14ttE/status/1088441975374635009",
+      "labelI18n": {
+        "ja": "AI が見つけた参考動画 · X",
+        "en": "Reference video found by AI · X"
+      }
+    }
+  ],
+  "note": "作者回顾所引 X 投稿；原帖播放待核。作者回顾标注约 2015 年 7 月公开，引用的自述称 2014 年作成。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "作者の回顧記事が引用する X 投稿。再生は未確認。記事では公開は2015年7月頃、引用された本人の投稿では制作は2014年。",
+    "en": "The retrospective dates its release to around July 2015. In the quoted X post, the creator dates its creation to 2014. Playback is unverified."
+  }
+}

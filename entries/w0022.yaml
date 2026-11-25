@@ -1,0 +1,37 @@
+{
+  "id": "w0022",
+  "status": "pending",
+  "name": "ワルヴェナ・ビタ",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "ギア",
+    "ペリカン"
+  ],
+  "sources": [
+    {
+      "label": "GinyuforcE · 转载简介署名",
+      "url": "https://www.bilibili.com/video/BV1Xh411y7CZ/",
+      "labelI18n": {
+        "ja": "GinyuforcE · 転載動画の概要欄",
+        "en": "GinyuforcE · repost credits"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "AI 补找 · Bilibili 参考视频",
+      "url": "https://www.bilibili.com/video/BV1Xh411y7CZ/",
+      "labelI18n": {
+        "ja": "AI が見つけた参考動画 · Bilibili",
+        "en": "Reference video found by AI · Bilibili"
+      }
+    }
+  ],
+  "note": "GinyuforcE 技连转载简介按「技名／制作者」列出。段落待定位。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "転載動画の概要欄にある技名と制作者の表記による。開始位置は未確認。",
+    "en": "Credits follow the move and creator list in the repost description. The timestamp is unconfirmed."
+  }
+}

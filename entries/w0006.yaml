@@ -1,0 +1,36 @@
+{
+  "id": "w0006",
+  "status": "approved",
+  "name": "鵺",
+  "reading": "ぬえ",
+  "aliases": [],
+  "creators": [
+    "ペリカン"
+  ],
+  "sources": [
+    {
+      "label": "ヲタ芸タイムズ · 技辞典署名",
+      "url": "https://wotageitimes.com/wazajiten/nue/",
+      "labelI18n": {
+        "ja": "ヲタ芸タイムズ · 技辞典の作者表記",
+        "en": "ヲタ芸タイムズ · dictionary credit"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "label": "参考演示 · YouTube · 0:28",
+      "url": "https://www.youtube.com/watch?v=pYLNpDH6a78&t=28s",
+      "labelI18n": {
+        "ja": "参考実演 · YouTube · 0:28",
+        "en": "Demonstration · YouTube · 0:28"
+      }
+    }
+  ],
+  "note": "署名据技辞典；本家投稿待核。",
+  "updated": "2026-11-25",
+  "noteI18n": {
+    "ja": "技辞典の署名による。本家動画は未確認。",
+    "en": "Creator credits follow the dictionary. The original video is unconfirmed."
+  }
+}
