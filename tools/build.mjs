@@ -30,6 +30,10 @@ for(const review of [true,false]){
   if(!review){
     mkdirSync(new URL('../docs/',import.meta.url),{recursive:true});
     writeFileSync(new URL('../docs/index.html',import.meta.url),html);
+    for(const style of ['folio','studio','index']){
+      const preview=html.replace('<main>', '<body data-style="'+style+'"><main>');
+      writeFileSync(new URL('../docs/preview-'+style+'.html',import.meta.url),preview);
+    }
   }
 }
 console.log(entries.length+' entries, '+entries.filter(e=>e.status==='approved').length+' approved');
