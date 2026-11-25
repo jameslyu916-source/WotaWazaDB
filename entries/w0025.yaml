@@ -1,0 +1,28 @@
+{
+  "id": "w0025",
+  "status": "pending",
+  "name": "重量毆打",
+  "reading": "ジュウリョウオウダ",
+  "aliases": [],
+  "creators": [
+    "めぷ"
+  ],
+  "videos": [
+    {
+      "label": "らて · YouTube",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks"
+    }
+  ],
+  "sources": [
+    {
+      "label": "らて · YouTube",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks"
+    }
+  ],
+  "note": "征集技单明确署名，合集秒数与作者原投待补。",
+  "noteI18n": {
+    "en": "Compilation credit. Timestamp and original post unverified.",
+    "ja": "募集技連の作者表記による。開始位置と作者の原投稿は未確認。"
+  },
+  "updated": "2026-11-25"
+}

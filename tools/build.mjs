@@ -25,13 +25,14 @@ for(const review of [true,false]){
     if(review) entry.videos=[...entry.videos,...pendingVideos.map(v=>({...v,pending:true}))];
     return entry;
   });
-  const html=template.replace('@@HAN@@',readFileSync(new URL('./han-pairs.txt',import.meta.url),'utf8')).replace('@@MODE@@',review?'review':'public').replace('/*DATA*/[]',()=>JSON.stringify(data).replaceAll('<','\\u003c'));
+  const html=template.replace('<!--DICTIONARIES-->',review?'':'<script src="docs/catalog.js"></script>').replace('@@HAN@@',readFileSync(new URL('./han-pairs.txt',import.meta.url),'utf8')).replace('@@MODE@@',review?'review':'public').replace('/*DATA*/[]',()=>JSON.stringify(data).replaceAll('<','\\u003c'));
   writeFileSync(new URL(review?'../review.html':'../index.html',import.meta.url),html);
   if(!review){
     mkdirSync(new URL('../docs/',import.meta.url),{recursive:true});
-    writeFileSync(new URL('../docs/index.html',import.meta.url),html);
+    const deployed=html.replace('src="docs/catalog.js"','src="catalog.js"');
+    writeFileSync(new URL('../docs/index.html',import.meta.url),deployed);
     for(const style of ['folio','studio','index']){
-      const preview=html.replace('<body data-style="studio"><main>', '<body data-style="'+style+'"><main>');
+      const preview=deployed.replace('<body data-style="studio"><main>', '<body data-style="'+style+'"><main>');
       writeFileSync(new URL('../docs/preview-'+style+'.html',import.meta.url),preview);
     }
   }

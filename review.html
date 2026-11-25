@@ -6,8 +6,30 @@ body[data-style="studio"]{background:#17191c;color:#e9e8e1}body[data-style="stud
 body[data-style="index"]{background:white;color:#152b51}body[data-style="index"] header{border-top:3px solid #243e66}body[data-style="index"] h1{font:600 clamp(34px,7vw,66px)/1.1 system-ui;letter-spacing:-.055em}body[data-style="index"] details{background:white;border-color:#c5cfdf}body[data-style="index"] summary small{font-family:monospace}body[data-style="index"] a{color:#214b89}
 </style>
 <body data-style="studio"><main><nav><a id="submit"></a><label><span aria-hidden="true">◎</span> Language <select id="lang" aria-label="Language / 言語 / 语言" ><option value="zh">中文</option><option value="ja">日本語</option><option value="en">English</option></select></label></nav><header><h1>WotaWazaDB</h1><p id="intro"></p></header><input id="q" type="search"><p id="count" aria-live="polite"></p><section id="list"></section></main>
-<script>const entries=[];
+
+<script>const entries=[{"id":"w0023","status":"pending","name":"少女消殒","reading":null,"aliases":[],"creators":[],"videos":[{"label":"樱祐介 · Bilibili","url":"https://www.bilibili.com/video/BV1Eiz8BmEiC/"}],"sources":[{"label":"樱祐介 · Bilibili","url":"https://www.bilibili.com/video/BV1Eiz8BmEiC/"}],"note":"投稿账号为樱祐介，简介称由雫织错派生，作成者署名待核。","noteI18n":{"en":"Posted by 樱祐介 as a derivative of 雫织错. Creator credit unconfirmed.","ja":"樱祐介の投稿。雫织错の派生技とされ、作者名義は未確認。"},"updated":"2026-11-25"},{"id":"w0024","status":"pending","name":"八象楯","reading":"ハッショウタテ","aliases":[],"creators":["融夜"],"videos":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"sources":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"note":"征集技单明确署名，合集秒数与作者原投待补。","noteI18n":{"en":"Compilation credit. Timestamp and original post unverified.","ja":"募集技連の作者表記による。開始位置と作者の原投稿は未確認。"},"updated":"2026-11-25"},{"id":"w0025","status":"pending","name":"重量毆打","reading":"ジュウリョウオウダ","aliases":[],"creators":["めぷ"],"videos":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"sources":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"note":"征集技单明确署名，合集秒数与作者原投待补。","noteI18n":{"en":"Compilation credit. Timestamp and original post unverified.","ja":"募集技連の作者表記による。開始位置と作者の原投稿は未確認。"},"updated":"2026-11-25"},{"id":"w0026","status":"pending","name":"大粒ラムネ","reading":"オオツブラムネ","aliases":[],"creators":["けるしん"],"videos":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"sources":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"note":"征集技单明确署名，合集秒数与作者原投待补。","noteI18n":{"en":"Compilation credit. Timestamp and original post unverified.","ja":"募集技連の作者表記による。開始位置と作者の原投稿は未確認。"},"updated":"2026-11-25"},{"id":"w0027","status":"pending","name":"夜叉斬","reading":"ヤシャギリ","aliases":[],"creators":["紫苑"],"videos":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"sources":[{"label":"らて · YouTube","url":"https://www.youtube.com/watch?v=9tWsLuX0Kks"}],"note":"征集技单明确署名，合集秒数与作者原投待补。","noteI18n":{"en":"Compilation credit. Timestamp and original post unverified.","ja":"募集技連の作者表記による。開始位置と作者の原投稿は未確認。"},"updated":"2026-11-25"}];
 const review='review'==='review';
+
+if(!review && typeof dictionaryRows!=='undefined'){
+ const byId=new Map(entries.map(e=>[e.id,e]));
+ for(const row of dictionaryRows){
+   let e=byId.get(row.target||row.id);
+   if(!e){
+     e={id:row.id,status:'approved',name:row.name,reading:row.reading,creators:row.creators,aliases:[],videos:[],sources:[],note:'',updated:'2026-11-25'};
+     entries.push(e);byId.set(e.id,e);
+   }
+   e.aliases=[...new Set([...e.aliases,...row.aliases])];
+   if(!e.reading)e.reading=row.reading;
+   const source=row.id.startsWith('t')?'ヲタ芸タイムズ':'灰机 Wiki';
+   if(!e.sources.some(s=>s.url===row.source))e.sources.push({label:source,url:row.source});
+   if(row.honke)e.dictionaryHonke=row.honke;
+   for(const url of row.videos){
+     if(e.videos.some(v=>v.url===url))continue;
+     const platform=new URL(url).hostname.replace(/^www\./,'');
+     e.videos.push({label:source+' · '+platform,url});
+   }
+ }
+}
 const ui={
  zh:['WOTA 艺技档案','审核预览','搜索技名、别名、读音或作成者','条记录','没有找到匹配的技','暂无已审核条目','作成者待考','视频投稿','作成日期','待审核','已收录','条目更新','补充待审'],
  ja:['ヲタ芸の技アーカイブ','確認用プレビュー','技名・別名・読み・作者で検索','件','該当する技が見つかりません','確認済みの技はまだありません','作者未確認','動画投稿日','制作日','確認待ち','収録済み','項目更新','追加候補'],
@@ -49,6 +71,7 @@ function render(){
  const d=el('details','');d.id=e.id;d.open=opened.has(e.id)||location.hash==='#'+e.id;
  const s=el('summary','');s.append(el('strong',e.name),el('small',e.creators.join(lang==='en'?', ':'、')||u[6]));d.append(s);
  if(e.reading||e.aliases.length)d.append(el('p',[e.reading,...e.aliases].filter(Boolean).join(' · ')));
+ if(e.dictionaryHonke)d.append(el('p',({zh:'辞典所列本家',ja:'辞典の本家表記',en:'Honke credited by the dictionary'})[lang]+' · '+e.dictionaryHonke));
  const links=el('ul','');
  for(const item of [...e.videos,...e.sources]){
  const label=item.labelI18n?.[lang]||item.label;

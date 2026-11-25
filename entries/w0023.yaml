@@ -1,0 +1,26 @@
+{
+  "id": "w0023",
+  "status": "pending",
+  "name": "少女消殒",
+  "reading": null,
+  "aliases": [],
+  "creators": [],
+  "videos": [
+    {
+      "label": "樱祐介 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV1Eiz8BmEiC/"
+    }
+  ],
+  "sources": [
+    {
+      "label": "樱祐介 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV1Eiz8BmEiC/"
+    }
+  ],
+  "note": "投稿账号为樱祐介，简介称由雫织错派生，作成者署名待核。",
+  "noteI18n": {
+    "en": "Posted by 樱祐介 as a derivative of 雫织错. Creator credit unconfirmed.",
+    "ja": "樱祐介の投稿。雫织错の派生技とされ、作者名義は未確認。"
+  },
+  "updated": "2026-11-25"
+}
