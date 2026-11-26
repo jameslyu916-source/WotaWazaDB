@@ -1,0 +1,36 @@
+{
+  "id": "w0028",
+  "status": "approved",
+  "name": "テレシア",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "ばさら"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks",
+      "label": "らて · 征集技连",
+      "labelI18n": {
+        "ja": "らて · 募集技連",
+        "en": "らて · open-call compilation"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks",
+      "label": "らて · 征集技连",
+      "labelI18n": {
+        "ja": "らて · 募集技連",
+        "en": "らて · open-call compilation"
+      }
+    }
+  ],
+  "note": "征集技连第 4 组第 1 技。",
+  "noteI18n": {
+    "ja": "募集技連の第4組、1技目。",
+    "en": "Waza 1 in compilation slot 4."
+  },
+  "updated": "2026-11-26"
+}

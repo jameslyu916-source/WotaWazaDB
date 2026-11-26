@@ -1,0 +1,36 @@
+{
+  "id": "w0032",
+  "status": "approved",
+  "name": "サイレントセレナ",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "お茶ユ"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks",
+      "label": "らて · 征集技连",
+      "labelI18n": {
+        "ja": "らて · 募集技連",
+        "en": "らて · open-call compilation"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=pz1z3G4OB60",
+      "label": "お茶ユ · 自创技二连发",
+      "labelI18n": {
+        "ja": "お茶ユ · オリジナル二連発",
+        "en": "お茶ユ · two original waza"
+      }
+    }
+  ],
+  "note": "自创技二连发第 1 技。",
+  "noteI18n": {
+    "ja": "オリジナル二連発の1技目。",
+    "en": "Waza 1 in the creator’s two-waza showcase."
+  },
+  "updated": "2026-11-26"
+}

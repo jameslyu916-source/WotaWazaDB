@@ -1,0 +1,36 @@
+{
+  "id": "w0031",
+  "status": "approved",
+  "name": "初心幻刃改",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "お茶ユ"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=pz1z3G4OB60",
+      "label": "お茶ユ · 自创技二连发",
+      "labelI18n": {
+        "ja": "お茶ユ · オリジナル二連発",
+        "en": "お茶ユ · two original waza"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=pz1z3G4OB60",
+      "label": "お茶ユ · 自创技二连发",
+      "labelI18n": {
+        "ja": "お茶ユ · オリジナル二連発",
+        "en": "お茶ユ · two original waza"
+      }
+    }
+  ],
+  "note": "自创技二连发第 2 技。",
+  "noteI18n": {
+    "ja": "オリジナル二連発の2技目。",
+    "en": "Waza 2 in the creator’s two-waza showcase."
+  },
+  "updated": "2026-11-26"
+}
