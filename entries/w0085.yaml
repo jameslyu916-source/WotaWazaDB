@@ -1,0 +1,31 @@
+{
+  "id": "w0085",
+  "status": "approved",
+  "name": "暴走雷蛇",
+  "reading": null,
+  "aliases": [
+    "Bohsoh raija",
+    "Bohsoh sansune"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈world's end, girl's rondo〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「world's end, girl's rondo」の1技目。",
+    "en": "Waza 1 in the world's end, girl's rondo segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

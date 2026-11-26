@@ -1,0 +1,30 @@
+{
+  "id": "w0109",
+  "status": "approved",
+  "name": "月下湊歪剱",
+  "reading": null,
+  "aliases": [
+    "Gekkasohwaiken"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈百鬼夜行〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「百鬼夜行」の1技目。",
+    "en": "Waza 1 in the 百鬼夜行 segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

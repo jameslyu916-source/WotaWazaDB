@@ -1,0 +1,30 @@
+{
+  "id": "w0058",
+  "status": "approved",
+  "name": "一文字",
+  "reading": null,
+  "aliases": [
+    "ichimonji"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈拍手喝采歌合(covered by 朝ノ瑠璃)〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「拍手喝采歌合(covered by 朝ノ瑠璃)」の1技目。",
+    "en": "Waza 1 in the 拍手喝采歌合(covered by 朝ノ瑠璃) segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

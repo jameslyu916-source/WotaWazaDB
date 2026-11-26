@@ -1,0 +1,31 @@
+{
+  "id": "w0077",
+  "status": "approved",
+  "name": "チェルノボーグ",
+  "reading": null,
+  "aliases": [
+    "Chernobog",
+    "Чорнобог"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈緋色の空〉第 2 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「緋色の空」の2技目。",
+    "en": "Waza 2 in the 緋色の空 segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

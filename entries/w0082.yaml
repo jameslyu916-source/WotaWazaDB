@@ -1,0 +1,30 @@
+{
+  "id": "w0082",
+  "status": "approved",
+  "name": "歪照改二",
+  "reading": null,
+  "aliases": [
+    "Waiterasu kai ni"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈カワルミライ〉第 3 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「カワルミライ」の3技目。",
+    "en": "Waza 3 in the カワルミライ segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

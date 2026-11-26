@@ -1,0 +1,31 @@
+{
+  "id": "w0078",
+  "status": "approved",
+  "name": "歪蛇",
+  "reading": null,
+  "aliases": [
+    "Waija",
+    "Waisune"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Birth〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Birth」の1技目。",
+    "en": "Waza 1 in the Birth segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

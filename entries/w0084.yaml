@@ -1,0 +1,30 @@
+{
+  "id": "w0084",
+  "status": "approved",
+  "name": "歪力",
+  "reading": null,
+  "aliases": [
+    "Wairī"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Sight Over The Battle〉第 2 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Sight Over The Battle」の2技目。",
+    "en": "Waza 2 in the Sight Over The Battle segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

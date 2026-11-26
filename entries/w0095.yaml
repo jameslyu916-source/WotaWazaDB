@@ -1,0 +1,30 @@
+{
+  "id": "w0095",
+  "status": "approved",
+  "name": "ヘビィ・メタル・バースト",
+  "reading": null,
+  "aliases": [
+    "Heavy Metal Burst"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Don't say \"lazy\"〉第 2 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Don't say \"lazy\"」の2技目。",
+    "en": "Waza 2 in the Don't say \"lazy\" segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

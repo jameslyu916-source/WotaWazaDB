@@ -1,0 +1,30 @@
+{
+  "id": "w0099",
+  "status": "approved",
+  "name": "世界の終わりを告げるラッパ",
+  "reading": null,
+  "aliases": [
+    "Sekai no owari wo tsugeru rappa"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈ガヴリールドロップキック〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「ガヴリールドロップキック」の1技目。",
+    "en": "Waza 1 in the ガヴリールドロップキック segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

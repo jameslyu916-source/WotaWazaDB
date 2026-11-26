@@ -1,0 +1,30 @@
+{
+  "id": "w0106",
+  "status": "approved",
+  "name": "ウルツァイト窒化硼素",
+  "reading": null,
+  "aliases": [
+    "Wurzeite boron nitride"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Lunatic Tears...〉第 2 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Lunatic Tears...」の2技目。",
+    "en": "Waza 2 in the Lunatic Tears... segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

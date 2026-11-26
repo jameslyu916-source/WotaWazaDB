@@ -1,0 +1,31 @@
+{
+  "id": "w0105",
+  "status": "approved",
+  "name": "シャイターン",
+  "reading": null,
+  "aliases": [
+    "شيطان",
+    "Shayṭān"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Lunatic Tears...〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Lunatic Tears...」の1技目。",
+    "en": "Waza 1 in the Lunatic Tears... segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

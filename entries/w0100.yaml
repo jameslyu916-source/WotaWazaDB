@@ -1,0 +1,30 @@
+{
+  "id": "w0100",
+  "status": "approved",
+  "name": "暴龍鶏王",
+  "reading": null,
+  "aliases": [
+    "Vorcano"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Over the Testament〉第 1 技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Over the Testament」の1技目。",
+    "en": "Waza 1 in the Over the Testament segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}
