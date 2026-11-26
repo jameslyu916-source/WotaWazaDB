@@ -1,0 +1,28 @@
+{
+  "id": "w0034",
+  "status": "approved",
+  "name": "射怪鳥事",
+  "reading": "ケチョウヲイルコト",
+  "aliases": [],
+  "creators": [
+    "さっつん"
+  ],
+  "sources": [
+    {
+      "label": "らて · YouTube",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks"
+    }
+  ],
+  "videos": [
+    {
+      "label": "らて · YouTube",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks"
+    }
+  ],
+  "note": "征集技连第 5 组第 1 技。",
+  "noteI18n": {
+    "ja": "募集技連の第5組、1技目。",
+    "en": "Waza 1 in compilation slot 5."
+  },
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "w0036",
+  "status": "approved",
+  "name": "鳴鳳決殺",
+  "reading": "メイホウケッサツ",
+  "aliases": [],
+  "creators": [
+    "みね"
+  ],
+  "sources": [
+    {
+      "label": "らて · YouTube",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks"
+    }
+  ],
+  "videos": [
+    {
+      "label": "らて · YouTube",
+      "url": "https://www.youtube.com/watch?v=9tWsLuX0Kks"
+    }
+  ],
+  "note": "征集技连第 8 组第 2 技。",
+  "noteI18n": {
+    "ja": "募集技連の第8組、2技目。",
+    "en": "Waza 2 in compilation slot 8."
+  },
+  "updated": "2026-11-26"
+}
