@@ -13,11 +13,20 @@
       "url": "https://www.youtube.com/channel/UCDTgcWSn17-vvfARu84eZBg"
     }
   ],
-  "videos": [],
-  "note": "本人频道列有未完成的「瑞鶴 初」。定稿演示待补。",
+  "videos": [
+    {
+      "label": "维护者提供 · 本家教学（0:24）",
+      "url": "https://www.youtube.com/watch?v=nJNZl-up5GA&t=24s",
+      "labelI18n": {
+        "ja": "管理者提供 · 作者の解説（0:24）",
+        "en": "Creator tutorial supplied by maintainer (0:24)"
+      }
+    }
+  ],
+  "note": "本人频道名为「洍朔 瑞鶴(ヲタ芸)」，简介自称洍朔。「瑞鶴」作为打师别名待确认。",
   "noteI18n": {
-    "ja": "作者のチャンネルに未完成版「瑞鶴 初」の掲載あり。完成版の動画は未確認。",
-    "en": "The creator lists an early, unfinished version titled 瑞鶴 初. A final demonstration is unconfirmed."
+    "ja": "チャンネル名は「洍朔 瑞鶴(ヲタ芸)」。本人は概要欄で洍朔と名乗る。「瑞鶴」が別名かは未確認。",
+    "en": "The channel is titled 洍朔 瑞鶴(ヲタ芸), and the creator introduces themself as 洍朔. Use of 瑞鶴 as a performer alias is unconfirmed."
   },
   "updated": "2026-11-26"
 }

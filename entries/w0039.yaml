@@ -1,0 +1,28 @@
+{
+  "id": "w0039",
+  "status": "approved",
+  "name": "机械神临",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "假面"
+  ],
+  "sources": [
+    {
+      "label": "假面 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV11tTtzpEKP/"
+    }
+  ],
+  "videos": [
+    {
+      "label": "假面 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV11tTtzpEKP/"
+    }
+  ],
+  "note": "「血肉」衍生技，与「苦弱血肉」同一投稿。维护者核对了署名。",
+  "noteI18n": {
+    "ja": "「血肉」の派生技。「苦弱血肉」と同じ投稿で、名義は管理者が確認。",
+    "en": "Derived from 血肉 and shown alongside 苦弱血肉. The maintainer checked the credit."
+  },
+  "updated": "2026-11-26"
+}

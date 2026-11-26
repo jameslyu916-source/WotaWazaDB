@@ -1,0 +1,30 @@
+{
+  "id": "w0042",
+  "status": "approved",
+  "name": "ジャヴァヲック",
+  "reading": null,
+  "aliases": [
+    "Jabberwock"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "videos": [
+    {
+      "label": "芒春 · YouTube",
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns"
+    }
+  ],
+  "note": "本人自创技连，〈Absolute Soul〉第二技。",
+  "noteI18n": {
+    "ja": "作者のオリ技連「Absolute Soul」の2技目。",
+    "en": "Second waza in the Absolute Soul segment of the creator’s compilation."
+  },
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "w0040",
+  "status": "approved",
+  "name": "贄血肉",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "融夜"
+  ],
+  "sources": [
+    {
+      "label": "融夜 · YouTube",
+      "url": "https://www.youtube.com/watch?v=0up0rlEEHZw"
+    }
+  ],
+  "videos": [
+    {
+      "label": "融夜 · YouTube",
+      "url": "https://www.youtube.com/watch?v=0up0rlEEHZw"
+    }
+  ],
+  "note": "本人技单标明本家，接在「戦線突入」之后。",
+  "noteI18n": {
+    "ja": "作者の技一覧では「戦線突入」の次に本家表記あり。",
+    "en": "Credited as the creator’s own waza directly after 戦線突入."
+  },
+  "updated": "2026-11-26"
+}
