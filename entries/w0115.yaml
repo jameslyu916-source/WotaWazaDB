@@ -1,0 +1,30 @@
+{
+  "id": "w0115",
+  "status": "approved",
+  "name": "瑞鶴",
+  "reading": null,
+  "aliases": [
+    "Zuikaku"
+  ],
+  "creators": [
+    "芒春"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns",
+      "label": "YouTube · 芒春"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=TcL6Xyswtns",
+      "label": "YouTube · 芒春"
+    }
+  ],
+  "note": "〈soar〉第 2 技，接在「翔鶴」之后。与打师瑞鶴的同名技不同。",
+  "noteI18n": {
+    "ja": "「soar」の2技目。「翔鶴」の次。打ち師・瑞鶴の同名技とは別技。",
+    "en": "Second in soar, after 翔鶴. Distinct from the waza of the same name by 瑞鶴."
+  },
+  "updated": "2026-11-27"
+}

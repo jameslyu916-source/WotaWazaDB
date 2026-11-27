@@ -1,0 +1,29 @@
+{
+  "id": "w0116",
+  "status": "approved",
+  "name": "二殛卍千羽",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "菜鸟",
+    "觉"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bilibili.com/video/BV1ZuSoBjEay/",
+      "label": "Bilibili · 菜鸟、觉"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.bilibili.com/video/BV1ZuSoBjEay/",
+      "label": "Bilibili · 菜鸟、觉"
+    }
+  ],
+  "note": "菜鸟与觉共作，源自村雨的「二羽」系列。",
+  "noteI18n": {
+    "ja": "菜鸟と觉の共作。村雨の「二羽」シリーズの派生技。",
+    "en": "Co-created by 菜鸟 and 觉, derived from 村雨’s 二羽 series."
+  },
+  "updated": "2026-11-27"
+}

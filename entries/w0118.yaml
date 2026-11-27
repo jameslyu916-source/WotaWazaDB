@@ -1,0 +1,28 @@
+{
+  "id": "w0118",
+  "status": "approved",
+  "name": "卍千花蕊",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "假面"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bilibili.com/video/BV11tTtzpEKP/",
+      "label": "Bilibili · 可以学的自创技"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.bilibili.com/video/BV11tTtzpEKP/",
+      "label": "Bilibili · 可以学的自创技"
+    }
+  ],
+  "note": "打开「可以学的自创技」选集，选择第 3 集。",
+  "noteI18n": {
+    "ja": "「可以学的自创技」の第3話を選択。",
+    "en": "Select item 3 in the 可以学的自创技 collection."
+  },
+  "updated": "2026-11-27"
+}
