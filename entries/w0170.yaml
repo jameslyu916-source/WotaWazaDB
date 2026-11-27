@@ -1,0 +1,26 @@
+{
+  "id": "w0170",
+  "status": "approved",
+  "name": "乖離光",
+  "reading": null,
+  "aliases": [
+    "Kairikou"
+  ],
+  "creators": [
+    "村雨"
+  ],
+  "sources": [
+    {
+      "label": "Wotagei USA",
+      "url": "https://wotagei.com/lumegei-waza#kairikou"
+    }
+  ],
+  "videos": [
+    {
+      "label": "村雨自创技连 · 251.0s",
+      "url": "https://www.bilibili.com/video/BV1TW411d7bW?t=251.0"
+    }
+  ],
+  "note": "维护者确认此片为村雨自创技连。片段定位取自 Wotagei USA。",
+  "updated": "2026-11-27"
+}

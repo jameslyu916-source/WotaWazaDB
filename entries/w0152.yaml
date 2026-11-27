@@ -1,0 +1,24 @@
+{
+  "id": "w0152",
+  "status": "approved",
+  "name": "Source(Apocalypse)",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "村雨"
+  ],
+  "sources": [
+    {
+      "label": "Wotagei USA",
+      "url": "https://wotagei.com/lumegei-waza#source-apocalypse"
+    }
+  ],
+  "videos": [
+    {
+      "label": "村雨自创技连 · 5.0s",
+      "url": "https://www.bilibili.com/video/BV1TW411d7bW/?t=5.0"
+    }
+  ],
+  "note": "维护者确认此片为村雨自创技连。片段定位取自 Wotagei USA。",
+  "updated": "2026-11-27"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "w0169",
+  "status": "approved",
+  "name": "桜色輪廻",
+  "reading": null,
+  "aliases": [
+    "Sakurairo Rinne"
+  ],
+  "creators": [
+    "村雨"
+  ],
+  "sources": [
+    {
+      "label": "Wotagei USA",
+      "url": "https://wotagei.com/lumegei-waza#sakurairo-rinne"
+    }
+  ],
+  "videos": [
+    {
+      "label": "村雨自创技连 · 239.7s",
+      "url": "https://www.bilibili.com/video/BV1TW411d7bW/?t=239.7"
+    }
+  ],
+  "note": "维护者确认此片为村雨自创技连。片段定位取自 Wotagei USA。",
+  "updated": "2026-11-27"
+}
