@@ -1,0 +1,35 @@
+{
+  "id": "w0141",
+  "status": "approved",
+  "name": "Boxing",
+  "reading": null,
+  "aliases": [
+    "拳击",
+    "ボクシング"
+  ],
+  "creators": [
+    "LiefTheBeef"
+  ],
+  "sources": [
+    {
+      "label": "LiefTheBeef · X",
+      "url": "https://x.com/liefthebeef/status/2106241461541109865/video/1"
+    },
+    {
+      "label": "Wotagei USA",
+      "url": "https://wotagei.com/lumegei-waza"
+    },
+    {
+      "label": "中文WOTA艺wiki",
+      "url": "https://wotagei.huijiwiki.com/wiki/Boxing%E3%80%88%E6%8B%B3%E5%87%BB%E3%80%89"
+    }
+  ],
+  "videos": [
+    {
+      "label": "LiefTheBeef · X",
+      "url": "https://x.com/liefthebeef/status/2106241461541109865/video/1"
+    }
+  ],
+  "note": "灰机将作成者、本家与技单演绎者均列为 LiefTheBeef。",
+  "updated": "2026-11-27"
+}

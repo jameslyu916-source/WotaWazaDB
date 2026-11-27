@@ -1,0 +1,35 @@
+{
+  "id": "w0138",
+  "status": "approved",
+  "name": "FeruSnake",
+  "reading": null,
+  "aliases": [
+    "狂蛇"
+  ],
+  "creators": [
+    "Bernie",
+    "Clovenski"
+  ],
+  "sources": [
+    {
+      "label": "FeruSnake Tutorial",
+      "url": "https://www.youtube.com/watch?v=zT4osAUS2e4"
+    },
+    {
+      "label": "Wotagei USA",
+      "url": "https://wotagei.com/lumegei-waza"
+    },
+    {
+      "label": "中文WOTA艺wiki",
+      "url": "https://wotagei.huijiwiki.com/wiki/FeruSnake%E3%80%88%E7%8B%82%E8%9B%87%E3%80%89"
+    }
+  ],
+  "videos": [
+    {
+      "label": "FeruSnake Tutorial",
+      "url": "https://www.youtube.com/watch?v=zT4osAUS2e4"
+    }
+  ],
+  "note": "Snake 系。灰机列两位共同作成者及本家。SweetJP 参与完善。",
+  "updated": "2026-11-27"
+}
