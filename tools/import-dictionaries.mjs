@@ -5,7 +5,7 @@ const existing=readdirSync('entries').filter(f=>f.endsWith('.yaml')).map(f=>JSON
 const rows=[], held=[];
 const norm=s=>s.normalize('NFKC').trim().toLowerCase();
 function clean(value=''){
-  const text=value.replace(/<ref\b[^>]*(?:\/>|>[\s\S]*?<\/ref>)/gi,'').replace(/\{\{([^{}|]+)\}\}/g,'$1').replace(/\[\[(?:[^|\]]+\|)?([^\]]+)\]\]/g,'$1').trim();
+  const text=value.replace(/&(?:nbsp|#0*160|#x0*a0);/gi,' ').replace(/<ref\b[^>]*(?:\/>|>[\s\S]*?<\/ref>)/gi,'').replace(/\{\{([^{}|]+)\}\}/g,'$1').replace(/\[\[(?:[^|\]]+\|)?([^\]]+)\]\]/g,'$1').trim();
   return /[{}<>|[\]]/.test(text)||/^(?:未明|不明|未知|同上)$/.test(text)?'':text;
 }
 const field=(s,k)=>clean(s.match(new RegExp('^\\|'+k+'\\s*=([^\\n\\r]*)','m'))?.[1]);
