@@ -1,0 +1,26 @@
+{
+  "id": "w0151",
+  "status": "approved",
+  "name": "卍鬼昆仑",
+  "reading": null,
+  "aliases": [
+    "Banki Konron"
+  ],
+  "creators": [
+    "村雨"
+  ],
+  "sources": [
+    {
+      "label": "Wotagei USA",
+      "url": "https://wotagei.com/lumegei-waza#banki-konron"
+    }
+  ],
+  "videos": [
+    {
+      "label": "村雨自创技连 · 349.1s",
+      "url": "https://www.bilibili.com/video/BV1TW411d7bW/?t=349.1"
+    }
+  ],
+  "note": "村雨自创技。定位取自 Wotagei USA 的影片链接。",
+  "updated": "2026-11-27"
+}
