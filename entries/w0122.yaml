@@ -11,9 +11,18 @@
     {
       "label": "影夜 · Bilibili",
       "url": "https://www.bilibili.com/video/BV1Vd4y1j7Mv/"
+    },
+    {
+      "label": "中文 WOTA 艺 Wiki · To Next Epoch",
+      "url": "https://wotagei.huijiwiki.com/wiki/%E5%BD%B1%E5%A4%9C%E8%87%AA%E5%88%9B%E6%8A%80%E8%BF%9E%E3%80%8CTo_Next_Epoch%E3%80%8D"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "label": "影夜 · To Next Epoch · 03:11",
+      "url": "https://www.bilibili.com/video/BV1zP2sBSETg/?t=191"
+    }
+  ],
   "note": "维护者提供影夜的双技教学。",
   "noteI18n": {
     "ja": "管理者提供の影夜による2技の解説動画。",

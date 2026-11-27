@@ -3,7 +3,9 @@
   "status": "approved",
   "name": "諧謔のリリス",
   "reading": null,
-  "aliases": [],
+  "aliases": [
+    "谐谑之莉莉丝"
+  ],
   "creators": [
     "影夜"
   ],
@@ -11,9 +13,17 @@
     {
       "label": "涙月／レイン · YouTube",
       "url": "https://www.youtube.com/watch?v=rppYrceTHUM"
+    },
+    {
+      "label": "中文 WOTA 艺 Wiki · To Next Epoch",
+      "url": "https://wotagei.huijiwiki.com/wiki/%E5%BD%B1%E5%A4%9C%E8%87%AA%E5%88%9B%E6%8A%80%E8%BF%9E%E3%80%8CTo_Next_Epoch%E3%80%8D"
     }
   ],
   "videos": [
+    {
+      "label": "影夜 · To Next Epoch · 03:33",
+      "url": "https://www.bilibili.com/video/BV1zP2sBSETg/?t=213"
+    },
     {
       "label": "融夜 · YouTube",
       "url": "https://www.youtube.com/watch?v=0up0rlEEHZw"

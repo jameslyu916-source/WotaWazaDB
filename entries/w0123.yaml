@@ -11,9 +11,17 @@
     {
       "label": "影夜 · Bilibili",
       "url": "https://www.bilibili.com/video/BV1Vd4y1j7Mv/"
+    },
+    {
+      "label": "中文 WOTA 艺 Wiki · To Next Epoch",
+      "url": "https://wotagei.huijiwiki.com/wiki/%E5%BD%B1%E5%A4%9C%E8%87%AA%E5%88%9B%E6%8A%80%E8%BF%9E%E3%80%8CTo_Next_Epoch%E3%80%8D"
     }
   ],
   "videos": [
+    {
+      "label": "影夜 · To Next Epoch · 03:21",
+      "url": "https://www.bilibili.com/video/BV1zP2sBSETg/?t=201"
+    },
     {
       "label": "融夜 · YouTube",
       "url": "https://www.youtube.com/watch?v=0up0rlEEHZw"
