@@ -1,0 +1,23 @@
+{
+  "id": "w0122",
+  "status": "approved",
+  "name": "灵涌镇界",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "影夜"
+  ],
+  "sources": [
+    {
+      "label": "影夜 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV1Vd4y1j7Mv/"
+    }
+  ],
+  "videos": [],
+  "note": "维护者提供影夜的双技教学。",
+  "noteI18n": {
+    "ja": "管理者提供の影夜による2技の解説動画。",
+    "en": "Two-waza tutorial by 影夜 supplied by the maintainer."
+  },
+  "updated": "2026-11-27"
+}

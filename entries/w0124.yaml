@@ -1,0 +1,23 @@
+{
+  "id": "w0124",
+  "status": "approved",
+  "name": "燕知火",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "假面"
+  ],
+  "sources": [
+    {
+      "label": "假面 · 可以学的自创技",
+      "url": "https://www.bilibili.com/video/BV11tTtzpEKP/"
+    }
+  ],
+  "videos": [],
+  "note": "在「可以学的自创技」选集选择第 5 集。",
+  "noteI18n": {
+    "ja": "「可以学的自创技」の第5話を選択。",
+    "en": "Select item 5 in the 可以学的自创技 collection."
+  },
+  "updated": "2026-11-27"
+}

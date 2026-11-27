@@ -1,0 +1,28 @@
+{
+  "id": "w0123",
+  "status": "approved",
+  "name": "弧光湾",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "影夜"
+  ],
+  "sources": [
+    {
+      "label": "影夜 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV1Vd4y1j7Mv/"
+    }
+  ],
+  "videos": [
+    {
+      "label": "融夜 · YouTube",
+      "url": "https://www.youtube.com/watch?v=0up0rlEEHZw"
+    }
+  ],
+  "note": "维护者提供影夜的双技教学。另见融夜技连〈Paradise〉第二技。",
+  "noteI18n": {
+    "ja": "影夜の2技解説。融夜の「Paradise」では2技目。",
+    "en": "Tutorial by 影夜. Also demonstrated second in 融夜’s Paradise segment."
+  },
+  "updated": "2026-11-27"
+}

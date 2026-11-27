@@ -1,0 +1,32 @@
+{
+  "id": "w0121",
+  "status": "approved",
+  "name": "諧謔のリリス",
+  "reading": null,
+  "aliases": [],
+  "creators": [
+    "影夜"
+  ],
+  "sources": [
+    {
+      "label": "涙月／レイン · YouTube",
+      "url": "https://www.youtube.com/watch?v=rppYrceTHUM"
+    }
+  ],
+  "videos": [
+    {
+      "label": "融夜 · YouTube",
+      "url": "https://www.youtube.com/watch?v=0up0rlEEHZw"
+    },
+    {
+      "label": "白子 · Bilibili",
+      "url": "https://www.bilibili.com/video/BV1XgXUBsEYT/"
+    }
+  ],
+  "note": "维护者确认本家为影夜。融夜技连〈Awake〉第一技；白子的技双亦为第一技。",
+  "noteI18n": {
+    "ja": "管理者が作者名を確認。融夜の「Awake」と白子の技双ではいずれも1技目。",
+    "en": "Creator confirmed by the maintainer. First waza in 融夜’s Awake segment and in 白子’s two-waza video."
+  },
+  "updated": "2026-11-27"
+}
