@@ -11,6 +11,8 @@ function clean(value=''){
 const field=(s,k)=>clean(s.match(new RegExp('^\\|'+k+'\\s*=([^\\n\\r]*)','m'))?.[1]);
 const known={Perikan:'ペリカン',Gear:'ギア',Yuukichi:'ゆーきち','I-Jack':'藍弱',Miza:'みざ',Latte:'らて'};
 function take(row){
+  row.creators=row.creators.map(c=>/^akhot$/i.test(c)?'AKHOT':c);
+  if(/^akhot$/i.test(row.honke)) row.honke='AKHOT';
   const found=existing.filter(e=>norm(e.name)===norm(row.name));
   const prior=rows.filter(e=>norm(e.name)===norm(row.name));
   const match=[...found,...prior].find(e=>e.sources?.some(s=>s.url===row.source)||e.source===row.source||e.creators.some(c=>row.creators.includes(c)));
