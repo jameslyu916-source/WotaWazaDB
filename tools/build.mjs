@@ -38,3 +38,11 @@ for(const review of [true,false]){
   }
 }
 console.log(entries.length+' entries, '+entries.filter(e=>e.status==='approved').length+' approved');
+const catalog = readFileSync(new URL('../docs/catalog.js', import.meta.url), 'utf8').trim();
+const dictionaryRows = JSON.parse(catalog.slice('const dictionaryRows='.length, -1));
+const ids = new Set(entries.filter(e => e.status === 'approved').map(e => e.id));
+for (const row of dictionaryRows) ids.add(row.target || row.id);
+const readmePath = new URL('../README.md', import.meta.url);
+const readme = readFileSync(readmePath, 'utf8');
+const updatedReadme = readme.replace(/(<!-- public-count -->)\d+(<!-- \/public-count -->)/, (_, start, end) => start + ids.size + end);
+if (updatedReadme !== readme) writeFileSync(readmePath, updatedReadme);
