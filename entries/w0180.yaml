@@ -1,0 +1,35 @@
+{
+  "id": "w0180",
+  "status": "approved",
+  "name": "アマルティス",
+  "reading": null,
+  "aliases": [
+    "Amalthea",
+    "Amaltis"
+  ],
+  "creators": [
+    "こじこじ"
+  ],
+  "sources": [
+    {
+      "label": "Wotagei USA · Amalthea",
+      "url": "https://wotagei.com/lumegei-waza#amalthea"
+    },
+    {
+      "label": "Wotagei USA · Amaltis",
+      "url": "https://wotagei.com/lumegei-waza#amaltis"
+    }
+  ],
+  "videos": [
+    {
+      "label": "EveninGlow 原創技連 · 1:48（タイムズ定位）",
+      "url": "https://www.youtube.com/watch?v=IX5Pb2TUu8c&t=108s"
+    },
+    {
+      "label": "GinyuforcE 技連 · 5:51",
+      "url": "https://www.youtube.com/watch?v=Z6q1SyOqIbM&t=351s"
+    }
+  ],
+  "note": "タイムズ署名作成者こじこじ。兩種羅馬字均見於 Wotagei USA，該表對 EveninGlow 同一段落標為 1:49。",
+  "updated": "2026-11-28"
+}

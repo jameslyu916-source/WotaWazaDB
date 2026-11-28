@@ -11,10 +11,12 @@ body[data-style="index"]{background:white;color:#152b51}body[data-style="index"]
 
 <script>const entries=[];
 const review='review'==='review';
+const dictionaryTargets=new Map();
 
 if(!review && typeof dictionaryRows!=='undefined'){
  const byId=new Map(entries.map(e=>[e.id,e]));
  for(const row of dictionaryRows){
+   if(row.target)dictionaryTargets.set(row.id,row.target);
    let e=byId.get(row.target||row.id);
    if(!e){
      e={id:row.id,status:'approved',name:row.name,reading:row.reading,creators:row.creators,aliases:[],videos:[],sources:[],note:'',updated:'2026-11-25'};
@@ -86,6 +88,7 @@ function render(){
  document.querySelector('#intro').textContent=intro;q.placeholder=u[2];q.setAttribute('aria-label',u[2]);
  const box=document.querySelector('#list'),opened=new Set([...box.querySelectorAll('details[open]')].map(d=>d.id));box.replaceChildren();
  const term=norm(q.value.trim());
+ const fragment=location.hash.slice(1),linkedId=dictionaryTargets.get(fragment)||fragment;
  const rows=entries.filter(e=>[e.name,e.reading,...e.aliases,...e.creators].filter(Boolean).some(v=>norm(v).includes(term)));
  if(sortPicker.value==='updated') rows.sort((a,b)=>(b.updated||'').localeCompare(a.updated||''));
  if(sortPicker.value==='name'){
@@ -94,10 +97,11 @@ function render(){
  }
  document.querySelector('#count').textContent=rows.length?rows.length+' '+(lang==='en'&&rows.length===1?'entry':u[3]):entries.length?u[4]:review?labels[2]:u[5];
  for(const e of rows){
- const d=el('details','');d.id=e.id;d.open=opened.has(e.id)||location.hash==='#'+e.id;
+ const d=el('details','');d.id=e.id;d.open=opened.has(e.id)||linkedId===e.id;
  const s=el('summary','');s.append(el('strong',e.name),el('small',e.creators.join(lang==='en'?', ':'、')||u[6]));d.append(s);
  if(e.reading||e.aliases.length)d.append(el('p',[e.reading,...e.aliases].filter(Boolean).join(' · ')));
- if(e.dictionaryHonke)d.append(el('p',({zh:'辞典所列本家',ja:'辞典の本家表記',en:'Honke credited by the dictionary'})[lang]+' · '+e.dictionaryHonke));
+ if(e.honke)d.append(el('p',({zh:'本家',ja:'本家',en:'Honke'})[lang]+' · '+e.honke));
+ else if(e.dictionaryHonke)d.append(el('p',({zh:'辞典所列本家',ja:'辞典の本家表記',en:'Honke credited by the dictionary'})[lang]+' · '+e.dictionaryHonke));
  const links=el('ul','');
  for(const item of [...e.videos,...e.sources]){
  const label=item.labelI18n?.[lang]||item.label;

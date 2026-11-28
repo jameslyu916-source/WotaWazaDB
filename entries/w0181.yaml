@@ -1,0 +1,31 @@
+{
+  "id": "w0181",
+  "status": "approved",
+  "name": "蒼ノ一閃",
+  "reading": null,
+  "aliases": [
+    "Aonoissen",
+    "A flash of blue"
+  ],
+  "creators": [
+    "零夜"
+  ],
+  "sources": [
+    {
+      "label": "Wotagei USA · 英文表記及影片",
+      "url": "https://wotagei.com/lumegei-waza#a-flash-of-blue-aonoissen"
+    },
+    {
+      "label": "日文 Wiki* · 零夜署名及影片定位",
+      "url": "https://wikiwiki.jp/neosr/蒼ノ一閃"
+    }
+  ],
+  "videos": [
+    {
+      "label": "參考演示 · 3:45",
+      "url": "https://www.youtube.com/watch?v=odC_9dsd09U&t=225s"
+    }
+  ],
+  "note": "美表署名 Yorei，與零夜是否為同一人的表記尚未核實。作成者與本家依灰機及日文 Wiki* 記作零夜。",
+  "updated": "2026-11-28"
+}

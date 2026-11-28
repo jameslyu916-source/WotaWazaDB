@@ -1,0 +1,46 @@
+{
+  "id": "w0179",
+  "status": "approved",
+  "name": "アンフィールド",
+  "reading": null,
+  "aliases": [
+    "Anfield"
+  ],
+  "creators": [
+    "ギア"
+  ],
+  "sources": [
+    {
+      "label": "GinyuforcE 官方原創技連 · ギア自述",
+      "url": "https://www.youtube.com/watch?v=e2vYZ5gq_48"
+    },
+    {
+      "label": "Wotagei USA · 署名與 X 連結",
+      "url": "https://wotagei.com/lumegei-waza#anfield"
+    },
+    {
+      "label": "灰機 Wiki · Gear 技連演繹者及署名",
+      "url": "https://wotagei.huijiwiki.com/wiki/Gear的原创技合集"
+    },
+    {
+      "label": "日文 Wiki* · 作成者與另一段參考演示",
+      "url": "https://wikiwiki.jp/neosr/アンフィールド"
+    }
+  ],
+  "videos": [
+    {
+      "label": "ギア原創技連 · 0:14",
+      "url": "https://www.youtube.com/watch?v=e2vYZ5gq_48&t=14s"
+    },
+    {
+      "label": "ギア的 X 貼文",
+      "url": "https://x.com/gear_stephenie/status/1079385180815511557"
+    },
+    {
+      "label": "參考演示 · 0:55",
+      "url": "https://www.youtube.com/watch?v=kPpvPdc94RM&t=55s"
+    }
+  ],
+  "note": "ギア在官方技連簡介以第一人稱列出自己的原創技，灰機的技連頁亦將演繹者列為ギア。",
+  "updated": "2026-11-28"
+}

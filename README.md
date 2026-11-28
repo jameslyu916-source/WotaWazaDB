@@ -1,8 +1,8 @@
 # WazaDB
 
-公開技總數 · 公開技数 · Total waza **<!-- public-count -->848<!-- /public-count -->**
+公開技總數 · 公開技数 · Total waza **<!-- public-count -->849<!-- /public-count -->**
 
-技庫最後更新 · 技アーカイブ最終更新 · Archive last updated **2026-11-27**
+技庫最後更新 · 技アーカイブ最終更新 · Archive last updated **2026-11-28**
 
 **中文**　面向各地打师的 WOTA 艺技档案。可以按技名或作成者检索，点开条目查看演示和署名出处。页面右上角可以切换语言。
 

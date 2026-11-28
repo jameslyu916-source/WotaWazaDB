@@ -1,0 +1,35 @@
+{
+  "id": "w0183",
+  "status": "approved",
+  "name": "アンドロメダ",
+  "reading": null,
+  "aliases": [
+    "Andromeda"
+  ],
+  "creators": [
+    "たこやき"
+  ],
+  "sources": [
+    {
+      "label": "白狐 · 一人技連標題、技單及作成者署名",
+      "url": "https://www.youtube.com/watch?v=-qGARmZlgZI"
+    },
+    {
+      "label": "Wotagei USA · 英名與影片",
+      "url": "https://wotagei.com/lumegei-waza#andromeda"
+    }
+  ],
+  "videos": [
+    {
+      "label": "白狐一人技連 · 恋愛勇者 · 2:22",
+      "url": "https://www.youtube.com/watch?v=-qGARmZlgZI&t=142s"
+    },
+    {
+      "label": "えりっく投稿 · 0:46",
+      "url": "https://www.youtube.com/watch?v=0TzwE9qhFcU&t=46s"
+    }
+  ],
+  "note": "タイムズ署名作成者たこやき，維護者確認本家同為たこやき。白狐演示的技單同列英名 Andromeda。",
+  "updated": "2026-11-28",
+  "honke": "たこやき"
+}

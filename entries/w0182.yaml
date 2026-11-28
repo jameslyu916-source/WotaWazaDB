@@ -1,0 +1,43 @@
+{
+  "id": "w0182",
+  "status": "approved",
+  "name": "天翔双璧",
+  "reading": null,
+  "aliases": [
+    "Amakakeru Souheki",
+    "天翔雙璧"
+  ],
+  "creators": [
+    "ギア"
+  ],
+  "sources": [
+    {
+      "label": "GinyuforcE 官方原創技連 · ギア自述",
+      "url": "https://www.youtube.com/watch?v=e2vYZ5gq_48"
+    },
+    {
+      "label": "灰機 Wiki · Gear 技連演繹者及署名",
+      "url": "https://wotagei.huijiwiki.com/wiki/Gear的原创技合集"
+    },
+    {
+      "label": "Wotagei USA · 羅馬字及定位",
+      "url": "https://wotagei.com/lumegei-waza#amakakeru-souheki"
+    },
+    {
+      "label": "日文 Wiki* · 同段演示定位",
+      "url": "https://wikiwiki.jp/neosr/天翔双璧"
+    }
+  ],
+  "videos": [
+    {
+      "label": "ギア原創技連 · 1:55",
+      "url": "https://www.youtube.com/watch?v=e2vYZ5gq_48&t=115s"
+    },
+    {
+      "label": "リバーシブル・キャンペーン · 2:31（美表定位）",
+      "url": "https://www.youtube.com/watch?v=57fRTCIfS9A&t=151s"
+    }
+  ],
+  "note": "灰機列ギア為作成者及本家。日文 Wiki* 對同一段參考演示標為 2:32。",
+  "updated": "2026-11-28"
+}
